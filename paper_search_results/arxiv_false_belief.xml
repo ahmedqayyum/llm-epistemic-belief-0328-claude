@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qVOD2JbqL3SW7a1AZXJklKZmIbA</id>
+  <title>arXiv Query: search_query=all:false OR all:belief AND all:large OR all:language OR all:model&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-25T20:54:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:false+OR+(all:belief+AND+(all:large+OR+(all:language+OR+all:model)))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>22156</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.08309v1</id>
+    <title>A note on the intuitionistic logic of false belief</title>
+    <updated>2020-11-04T11:05:58Z</updated>
+    <link href="https://arxiv.org/abs/2012.08309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.08309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we analyse logic of false belief in intuitionistic setting. This logic, studied in its classical version by Steinsvold, Fan, Gilbert and Venturi, describes the following situation: a formula F is not satisfied in a given world, but we still believe in it (or we think that it should be accepted). Another interpretations are also possible: e.g. that we do not accept F but it is imposed on us by a kind of council or advisory board. From the mathematical point of view, the idea is expressed by an adequate form of modal operator W which is interpreted in relational frames with neighborhoods. We discuss monotonicity of forcing, soundness, completeness and several other issues. We present also some simple systems in which confirmation of previously accepted formula is modelled.</summary>
+    <category term="math.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-04T11:05:58Z</published>
+    <arxiv:comment>Initial report on the question of intuitionistic logic of false belief</arxiv:comment>
+    <arxiv:primary_category term="math.LO"/>
+    <author>
+      <name>Tomasz Witczak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21195v1</id>
+    <title>Belief in the Machine: Investigating Epistemological Blind Spots of Language Models</title>
+    <updated>2024-10-28T16:38:20Z</updated>
+    <link href="https://arxiv.org/abs/2410.21195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As language models (LMs) become integral to fields like healthcare, law, and journalism, their ability to differentiate between fact, belief, and knowledge is essential for reliable decision-making. Failure to grasp these distinctions can lead to significant consequences in areas such as medical diagnosis, legal judgments, and dissemination of fake news. Despite this, current literature has largely focused on more complex issues such as theory of mind, overlooking more fundamental epistemic challenges. This study systematically evaluates the epistemic reasoning capabilities of modern LMs, including GPT-4, Claude-3, and Llama-3, using a new dataset, KaBLE, consisting of 13,000 questions across 13 tasks. Our results reveal key limitations. First, while LMs achieve 86% accuracy on factual scenarios, their performance drops significantly with false scenarios, particularly in belief-related tasks. Second, LMs struggle with recognizing and affirming personal beliefs, especially when those beliefs contradict factual data, which raises concerns for applications in healthcare and counseling, where engaging with a person's beliefs is critical. Third, we identify a salient bias in how LMs process first-person versus third-person beliefs, performing better on third-person tasks (80.7%) compared to first-person tasks (54.4%). Fourth, LMs lack a robust understanding of the factive nature of knowledge, namely, that knowledge inherently requires truth. Fifth, LMs rely on linguistic cues for fact-checking and sometimes bypass the deeper reasoning. These findings highlight significant concerns about current LMs' ability to reason about truth, belief, and knowledge while emphasizing the need for advancements in these areas before broad deployment in critical sectors.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T16:38:20Z</published>
+    <arxiv:comment>https://github.com/suzgunmirac/belief-in-the-machine</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mirac Suzgun</name>
+    </author>
+    <author>
+      <name>Tayfun Gur</name>
+    </author>
+    <author>
+      <name>Federico Bianchi</name>
+    </author>
+    <author>
+      <name>Daniel E. Ho</name>
+    </author>
+    <author>
+      <name>Thomas Icard</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.08401v2</id>
+    <title>Enriching a Model's Notion of Belief using a Persistent Memory</title>
+    <updated>2021-10-07T17:44:57Z</updated>
+    <link href="https://arxiv.org/abs/2104.08401v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.08401v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although pretrained language models (PTLMs) have been shown to contain significant amounts of world knowledge, they can still produce inconsistent answers to questions when probed, even after using specialized training techniques to reduce inconsistency. As a result, it can be hard to identify what the model actually "believes" about the world. Our goal is to reduce this problem, so systems are more globally consistent and accurate in their answers. Our approach is to add a memory component -- a BeliefBank -- that records a model's answers, and two mechanisms that use it to improve consistency among beliefs. First, a reasoning component -- a weighted SAT solver -- improves consistency by flipping answers that significantly clash with others. Second, a feedback component re-queries the model but using known beliefs as context. We show that, in a controlled experimental setting, these two mechanisms improve both accuracy and consistency. This is significant as it is a first step towards endowing models with an evolving memory, allowing them to construct a more coherent picture of the world.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-16T23:09:11Z</published>
+    <arxiv:comment>This is an old and now obsolete draft. See arXiv:2109.14723 ("BeliefBank: Adding Memory to a Pre-Trained Language Model for a Systematic Notion of Belief") for the final paper</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Nora Kassner</name>
+    </author>
+    <author>
+      <name>Oyvind Tafjord</name>
+    </author>
+    <author>
+      <name>Hinrich Schutze</name>
+    </author>
+    <author>
+      <name>Peter Clark</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.03258v3</id>
+    <title>A Particular Upper Expectation as Global Belief Model for Discrete-Time Finite-State Uncertain Processes</title>
+    <updated>2021-01-11T14:54:22Z</updated>
+    <link href="https://arxiv.org/abs/2008.03258v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.03258v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To model discrete-time finite-state uncertain processes, we argue for the use of a global belief model in the form of an upper expectation that is the most conservative one under a set of basic axioms. Our motivation for these axioms, which describe how local and global belief models should be related, is based on two possible interpretations for an upper expectation: a behavioural one similar to Walley's, and an interpretation in terms of upper envelopes of linear expectations. We show that the most conservative upper expectation satisfying our axioms, that is, our model of choice, coincides with a particular version of the game-theoretic upper expectation introduced by Shafer and Vovk. This has two important implications: it guarantees that there is a unique most conservative global belief model satisfying our axioms; and it shows that Shafer and Vovk's model can be given an axiomatic characterisation and thereby provides an alternative motivation for adopting this model, even outside their game-theoretic framework. Finally, we relate our model to the upper expectation resulting from a traditional measure-theoretic approach. We show that this measure-theoretic upper expectation also satisfies the proposed axioms, which implies that it is dominated by our model or, equivalently, the game-theoretic model. Moreover, if all local models are precise, all three models coincide.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-07T16:28:46Z</published>
+    <arxiv:comment>Extension of the conference paper `In Search of a Global Belief Model for Discrete-Time Uncertain Processes'</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Natan T'Joens</name>
+    </author>
+    <author>
+      <name>Jasper De Bock</name>
+    </author>
+    <author>
+      <name>Gert de Cooman</name>
+    </author>
+    <arxiv:doi>10.1016/j.ijar.2020.12.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ijar.2020.12.017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.3833v1</id>
+    <title>Typical models: minimizing false beliefs</title>
+    <updated>2011-05-19T10:00:39Z</updated>
+    <link href="https://arxiv.org/abs/1105.3833v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.3833v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A knowledge system S describing a part of real world does in general not contain complete information. Reasoning with incomplete information is prone to errors since any belief derived from S may be false in the present state of the world. A false belief may suggest wrong decisions and lead to harmful actions. So an important goal is to make false beliefs as unlikely as possible. This work introduces the notions of "typical atoms" and "typical models", and shows that reasoning with typical models minimizes the expected number of false beliefs over all ways of using incomplete information. Various properties of typical models are studied, in particular, correctness and stability of beliefs suggested by typical models, and their connection to oblivious reasoning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-19T10:00:39Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Journal of Experimental &amp; Theoretical Artificial Intelligence, vol. 22, no.4, December 2010, 321-340</arxiv:journal_ref>
+    <author>
+      <name>Eliezer L. Lozinskii</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.17389v1</id>
+    <title>FairBelief -- Assessing Harmful Beliefs in Language Models</title>
+    <updated>2024-02-27T10:31:00Z</updated>
+    <link href="https://arxiv.org/abs/2402.17389v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.17389v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language Models (LMs) have been shown to inherit undesired biases that might hurt minorities and underrepresented groups if such systems were integrated into real-world applications without careful fairness auditing. This paper proposes FairBelief, an analytical approach to capture and assess beliefs, i.e., propositions that an LM may embed with different degrees of confidence and that covertly influence its predictions. With FairBelief, we leverage prompting to study the behavior of several state-of-the-art LMs across different previously neglected axes, such as model scale and likelihood, assessing predictions on a fairness dataset specifically designed to quantify LMs' outputs' hurtfulness. Finally, we conclude with an in-depth qualitative assessment of the beliefs emitted by the models. We apply FairBelief to English LMs, revealing that, although these architectures enable high performances on diverse natural language processing tasks, they show hurtful beliefs about specific genders. Interestingly, training procedure and dataset, model scale, and architecture induce beliefs of different degrees of hurtfulness.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-27T10:31:00Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Proceedings of the 4th Workshop on Trustworthy Natural Language Processing (TrustNLP 2024)</arxiv:journal_ref>
+    <author>
+      <name>Mattia Setzu</name>
+    </author>
+    <author>
+      <name>Marta Marchiori Manerba</name>
+    </author>
+    <author>
+      <name>Pasquale Minervini</name>
+    </author>
+    <author>
+      <name>Debora Nozza</name>
+    </author>
+    <arxiv:doi>10.18653/v1/2024.trustnlp-1.3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.18653/v1/2024.trustnlp-1.3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.16085v1</id>
+    <title>Language Statistics and False Belief Reasoning: Evidence from 41 Open-Weight LMs</title>
+    <updated>2026-02-17T23:20:08Z</updated>
+    <link href="https://arxiv.org/abs/2602.16085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.16085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research on mental state reasoning in language models (LMs) has the potential to inform theories of human social cognition--such as the theory that mental state reasoning emerges in part from language exposure--and our understanding of LMs themselves. Yet much published work on LMs relies on a relatively small sample of closed-source LMs, limiting our ability to rigorously test psychological theories and evaluate LM capacities. Here, we replicate and extend published work on the false belief task by assessing LM mental state reasoning behavior across 41 open-weight models (from distinct model families). We find sensitivity to implied knowledge states in 34% of the LMs tested; however, consistent with prior work, none fully ``explain away'' the effect in humans. Larger LMs show increased sensitivity and also exhibit higher psychometric predictive power. Finally, we use LM behavior to generate and test a novel hypothesis about human cognition: both humans and LMs show a bias towards attributing false beliefs when knowledge states are cued using a non-factive verb (``John thinks...'') than when cued indirectly (``John looks in the...''). Unlike the primary effect of knowledge states, where human sensitivity exceeds that of LMs, the magnitude of the human knowledge cue effect falls squarely within the distribution of LM effect sizes-suggesting that distributional statistics of language can in principle account for the latter but not the former in humans. These results demonstrate the value of using larger samples of open-weight LMs to test theories of human cognition and evaluate LM capacities.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-17T23:20:08Z</published>
+    <arxiv:comment>15 pages, 7 figures, submitted to conference</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Sean Trott</name>
+    </author>
+    <author>
+      <name>Samuel Taylor</name>
+    </author>
+    <author>
+      <name>Cameron Jones</name>
+    </author>
+    <author>
+      <name>James A. Michaelov</name>
+    </author>
+    <author>
+      <name>Pamela D. Rivière</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.07237v3</id>
+    <title>A semantic embedding space based on large language models for modelling human beliefs</title>
+    <updated>2025-06-06T17:30:29Z</updated>
+    <link href="https://arxiv.org/abs/2408.07237v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.07237v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Beliefs form the foundation of human cognition and decision-making, guiding our actions and social connections. A model encapsulating beliefs and their interrelationships is crucial for understanding their influence on our actions. However, research on belief interplay has often been limited to beliefs related to specific issues and relied heavily on surveys. We propose a method to study the nuanced interplay between thousands of beliefs by leveraging an online user debate data and mapping beliefs onto a neural embedding space constructed using a fine-tuned large language model (LLM). This belief space captures the interconnectedness and polarization of diverse beliefs across social issues. Our findings show that positions within this belief space predict new beliefs of individuals and estimate cognitive dissonance based on the distance between existing and new beliefs. This study demonstrates how LLMs, combined with collective online records of human beliefs, can offer insights into the fundamental principles that govern human belief formation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-13T23:58:45Z</published>
+    <arxiv:comment>5 figures, 2 tables (SI: 25 figures, 7 tables). Published in Nature Human Behaviour (2025)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Byunghwee Lee</name>
+    </author>
+    <author>
+      <name>Rachith Aiyappa</name>
+    </author>
+    <author>
+      <name>Yong-Yeol Ahn</name>
+    </author>
+    <author>
+      <name>Haewoon Kwak</name>
+    </author>
+    <author>
+      <name>Jisun An</name>
+    </author>
+    <arxiv:doi>10.1038/s41562-025-02228-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41562-025-02228-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.02467v1</id>
+    <title>Indications of Belief-Guided Agency and Meta-Cognitive Monitoring in Large Language Models</title>
+    <updated>2026-02-02T18:49:39Z</updated>
+    <link href="https://arxiv.org/abs/2602.02467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.02467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rapid advancements in large language models (LLMs) have sparked the question whether these models possess some form of consciousness. To tackle this challenge, Butlin et al. (2023) introduced a list of indicators for consciousness in artificial systems based on neuroscientific theories. In this work, we evaluate a key indicator from this list, called HOT-3, which tests for agency guided by a general belief-formation and action selection system that updates beliefs based on meta-cognitive monitoring. We view beliefs as representations in the model's latent space that emerge in response to a given input, and introduce a metric to quantify their dominance during generation. Analyzing the dynamics between competing beliefs across models and tasks reveals three key findings: (1) external manipulations systematically modulate internal belief formation, (2) belief formation causally drives the model's action selection, and (3) models can monitor and report their own belief states. Together, these results provide empirical support for the existence of belief-guided agency and meta-cognitive monitoring in LLMs. More broadly, our work lays methodological groundwork for investigating the emergence of agency, beliefs, and meta-cognition in LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-02T18:49:39Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Noam Steinmetz Yalon</name>
+    </author>
+    <author>
+      <name>Ariel Goldstein</name>
+    </author>
+    <author>
+      <name>Liad Mudrik</name>
+    </author>
+    <author>
+      <name>Mor Geva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.05613v1</id>
+    <title>Second-Order Belief Hidden Markov Models</title>
+    <updated>2015-01-22T19:56:34Z</updated>
+    <link href="https://arxiv.org/abs/1501.05613v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.05613v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hidden Markov Models (HMMs) are learning methods for pattern recognition. The probabilistic HMMs have been one of the most used techniques based on the Bayesian model. First-order probabilistic HMMs were adapted to the theory of belief functions such that Bayesian probabilities were replaced with mass functions. In this paper, we present a second-order Hidden Markov Model using belief functions. Previous works in belief HMMs have been focused on the first-order HMMs. We extend them to the second-order model.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-22T19:56:34Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Belief 2014, Sep 2014, Oxford, United Kingdom. pp.284 - 293</arxiv:journal_ref>
+    <author>
+      <name>Jungyeul Park</name>
+      <arxiv:affiliation>IRISA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mouna Chebbah</name>
+      <arxiv:affiliation>IRISA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Siwar Jendoubi</name>
+      <arxiv:affiliation>IRISA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arnaud Martin</name>
+      <arxiv:affiliation>IRISA</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1007/978-3-319-11191-9_31</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-319-11191-9_31" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.06004v3</id>
+    <title>Perceptions to Beliefs: Exploring Precursory Inferences for Theory of Mind in Large Language Models</title>
+    <updated>2024-11-06T22:07:06Z</updated>
+    <link href="https://arxiv.org/abs/2407.06004v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.06004v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While humans naturally develop theory of mind (ToM), the capability to understand other people's mental states and beliefs, state-of-the-art large language models (LLMs) underperform on simple ToM benchmarks. We posit that we can extend our understanding of LLMs' ToM abilities by evaluating key human ToM precursors$-$perception inference and perception-to-belief inference$-$in LLMs. We introduce two datasets, Percept-ToMi and Percept-FANToM, to evaluate these precursory inferences for ToM in LLMs by annotating characters' perceptions on ToMi and FANToM, respectively. Our evaluation of eight state-of-the-art LLMs reveals that the models generally perform well in perception inference while exhibiting limited capability in perception-to-belief inference (e.g., lack of inhibitory control). Based on these results, we present PercepToM, a novel ToM method leveraging LLMs' strong perception inference capability while supplementing their limited perception-to-belief inference. Experimental results demonstrate that PercepToM significantly enhances LLM's performance, especially in false belief scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-08T14:58:29Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chani Jung</name>
+    </author>
+    <author>
+      <name>Dongkwan Kim</name>
+    </author>
+    <author>
+      <name>Jiho Jin</name>
+    </author>
+    <author>
+      <name>Jiseon Kim</name>
+    </author>
+    <author>
+      <name>Yeon Seonwoo</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Alice Oh</name>
+    </author>
+    <author>
+      <name>Hyunwoo Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04800v1</id>
+    <title>Zero, Finite, and Infinite Belief History of Theory of Mind Reasoning in Large Language Models</title>
+    <updated>2024-06-07T10:04:39Z</updated>
+    <link href="https://arxiv.org/abs/2406.04800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have recently shown a promise and emergence of Theory of Mind (ToM) ability and even outperform humans in certain ToM tasks. To evaluate and extend the boundaries of the ToM reasoning ability of LLMs, we propose a novel concept, taxonomy, and framework, the ToM reasoning with Zero, Finite, and Infinite Belief History and develop a multi-round text-based game, called $\textit{Pick the Right Stuff}$, as a benchmark. We have evaluated six LLMs with this game and found their performance on Zero Belief History is consistently better than on Finite Belief History. In addition, we have found two of the models with small parameter sizes outperform all the evaluated models with large parameter sizes. We expect this work to pave the way for future ToM benchmark development and also for the promotion and development of more complex AI agents or systems which are required to be equipped with more complex ToM reasoning ability.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-07T10:04:39Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Weizhi Tang</name>
+    </author>
+    <author>
+      <name>Vaishak Belle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.01576v1</id>
+    <title>A Bayesian Model for False Information Belief Impact, Optimal Design, and Fake News Containment</title>
+    <updated>2018-03-13T22:32:16Z</updated>
+    <link href="https://arxiv.org/abs/1804.01576v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.01576v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work is a technical approach to modeling false information nature, design, belief impact and containment in multi-agent networks. We present a Bayesian mathematical model for source information and viewer's belief, and how the former impacts the latter in a media (network) of broadcasters and viewers. Given the proposed model, we study how a particular information (true or false) can be optimally designed into a report, so that on average it conveys the most amount of the original intended information to the viewers of the network. Consequently, the model allows us to study susceptibility of a particular group of viewers to false information, as a function of statistical metrics of the their prior beliefs (e.g. bias, hesitation, open-mindedness, credibility assessment etc.). In addition, based on the same model we can study false information "containment" strategies imposed by network administrators. Specifically, we study a credibility assessment strategy, where every disseminated report must be within a certain distance of the truth. We study the trade-off between false and true information-belief convergence using this scheme which leads to ways for optimally deciding how truth sensitive an information dissemination network should operate.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-13T22:32:16Z</published>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Amin Khajehnejad</name>
+    </author>
+    <author>
+      <name>Shima Hajimirza</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.06958v1</id>
+    <title>Covid-19 classification with deep neural network and belief functions</title>
+    <updated>2021-01-18T09:43:11Z</updated>
+    <link href="https://arxiv.org/abs/2101.06958v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.06958v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computed tomography (CT) image provides useful information for radiologists to diagnose Covid-19. However, visual analysis of CT scans is time-consuming. Thus, it is necessary to develop algorithms for automatic Covid-19 detection from CT images. In this paper, we propose a belief function-based convolutional neural network with semi-supervised training to detect Covid-19 cases. Our method first extracts deep features, maps them into belief degree maps and makes the final classification decision. Our results are more reliable and explainable than those of traditional deep learning-based classification models. Experimental results show that our approach is able to achieve a good performance with an accuracy of 0.81, an F1 of 0.812 and an AUC of 0.875.</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-18T09:43:11Z</published>
+    <arxiv:comment>medical image, Covid-19, belief function, BIHI conference</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Ling Huang</name>
+    </author>
+    <author>
+      <name>Su Ruan</name>
+    </author>
+    <author>
+      <name>Thierry Denoeux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.13654v1</id>
+    <title>Do Language Models Have Beliefs? Methods for Detecting, Updating, and Visualizing Model Beliefs</title>
+    <updated>2021-11-26T18:33:59Z</updated>
+    <link href="https://arxiv.org/abs/2111.13654v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.13654v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Do language models have beliefs about the world? Dennett (1995) famously argues that even thermostats have beliefs, on the view that a belief is simply an informational state decoupled from any motivational state. In this paper, we discuss approaches to detecting when models have beliefs about the world, and we improve on methods for updating model beliefs to be more truthful, with a focus on methods based on learned optimizers or hypernetworks. Our main contributions include: (1) new metrics for evaluating belief-updating methods that focus on the logical consistency of beliefs, (2) a training objective for Sequential, Local, and Generalizing model updates (SLAG) that improves the performance of learned optimizers, and (3) the introduction of the belief graph, which is a new form of interface with language models that shows the interdependencies between model beliefs. Our experiments suggest that models possess belief-like qualities to only a limited extent, but update methods can both fix incorrect model beliefs and greatly improve their consistency. Although off-the-shelf optimizers are surprisingly strong belief-updating baselines, our learned optimizers can outperform them in more difficult settings than have been considered in past work. Code is available at https://github.com/peterbhase/SLAG-Belief-Updating</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-26T18:33:59Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Peter Hase</name>
+    </author>
+    <author>
+      <name>Mona Diab</name>
+    </author>
+    <author>
+      <name>Asli Celikyilmaz</name>
+    </author>
+    <author>
+      <name>Xian Li</name>
+    </author>
+    <author>
+      <name>Zornitsa Kozareva</name>
+    </author>
+    <author>
+      <name>Veselin Stoyanov</name>
+    </author>
+    <author>
+      <name>Mohit Bansal</name>
+    </author>
+    <author>
+      <name>Srinivasan Iyer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.20320v1</id>
+    <title>Theory of Mind in Large Language Models: Examining Performance of 11 State-of-the-Art models vs. Children Aged 7-10 on Advanced Tests</title>
+    <updated>2023-10-31T09:55:07Z</updated>
+    <link href="https://arxiv.org/abs/2310.20320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.20320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To what degree should we ascribe cognitive capacities to Large Language Models (LLMs), such as the ability to reason about intentions and beliefs known as Theory of Mind (ToM)? Here we add to this emerging debate by (i) testing 11 base- and instruction-tuned LLMs on capabilities relevant to ToM beyond the dominant false-belief paradigm, including non-literal language usage and recursive intentionality; (ii) using newly rewritten versions of standardized tests to gauge LLMs' robustness; (iii) prompting and scoring for open besides closed questions; and (iv) benchmarking LLM performance against that of children aged 7-10 on the same tasks. We find that instruction-tuned LLMs from the GPT family outperform other models, and often also children. Base-LLMs are mostly unable to solve ToM tasks, even with specialized prompting. We suggest that the interlinked evolution and development of language and ToM may help explain what instruction-tuning adds: rewarding cooperative communication that takes into account interlocutor and context. We conclude by arguing for a nuanced perspective on ToM in LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-31T09:55:07Z</published>
+    <arxiv:comment>14 pages, 4 figures, Forthcoming in Proceedings of the 27th Conference on Computational Natural Language Learning (CoNLL)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Max J. van Duijn</name>
+    </author>
+    <author>
+      <name>Bram M. A. van Dijk</name>
+    </author>
+    <author>
+      <name>Tom Kouwenhoven</name>
+    </author>
+    <author>
+      <name>Werner de Valk</name>
+    </author>
+    <author>
+      <name>Marco R. Spruit</name>
+    </author>
+    <author>
+      <name>Peter van der Putten</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00647v1</id>
+    <title>An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers</title>
+    <updated>2022-08-01T07:13:31Z</updated>
+    <link href="https://arxiv.org/abs/2208.00647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a distance-based neural network model for regression, in which prediction uncertainty is quantified by a belief function on the real line. The model interprets the distances of the input vector to prototypes as pieces of evidence represented by Gaussian random fuzzy numbers (GRFN's) and combined by the generalized product intersection rule, an operator that extends Dempster's rule to random fuzzy sets. The network output is a GRFN that can be summarized by three numbers characterizing the most plausible predicted value, variability around this value, and epistemic uncertainty. Experiments with real datasets demonstrate the very good performance of the method as compared to state-of-the-art evidential and statistical learning algorithms. \keywords{Evidence theory, Dempster-Shafer theory, belief functions, machine learning, random fuzzy sets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-01T07:13:31Z</published>
+    <arxiv:comment>7th International Conference on Belief Functions (BELIEF 2022), Paris, France, October 26-28, 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>In: Le Hégarat-Mascle, S., Bloch, I., Aldea, E. (eds) Belief Functions: Theory and Applications. BELIEF 2022. Lecture Notes in Computer Science, vol 13506. Springer, Cham, 2022, pp.57-66</arxiv:journal_ref>
+    <author>
+      <name>Thierry Denoeux</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-17801-6_6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-17801-6_6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.01805v2</id>
+    <title>Accumulating Context Changes the Beliefs of Language Models</title>
+    <updated>2025-11-04T17:41:28Z</updated>
+    <link href="https://arxiv.org/abs/2511.01805v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.01805v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Language model (LM) assistants are increasingly used in applications such as brainstorming and research. Improvements in memory and context size have allowed these models to become more autonomous, which has also resulted in more text accumulation in their context windows without explicit user intervention. This comes with a latent risk: the belief profiles of models -- their understanding of the world as manifested in their responses or actions -- may silently change as context accumulates. This can lead to subtly inconsistent user experiences, or shifts in behavior that deviate from the original alignment of the models. In this paper, we explore how accumulating context by engaging in interactions and processing text -- talking and reading -- can change the beliefs of language models, as manifested in their responses and behaviors. Our results reveal that models' belief profiles are highly malleable: GPT-5 exhibits a 54.7% shift in its stated beliefs after 10 rounds of discussion about moral dilemmas and queries about safety, while Grok 4 shows a 27.2% shift on political issues after reading texts from the opposing position. We also examine models' behavioral changes by designing tasks that require tool use, where each tool selection corresponds to an implicit belief. We find that these changes align with stated belief shifts, suggesting that belief shifts will be reflected in actual behavior in agentic systems. Our analysis exposes the hidden risk of belief shift as models undergo extended sessions of talking or reading, rendering their opinions and actions unreliable.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-03T18:05:57Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jiayi Geng</name>
+    </author>
+    <author>
+      <name>Howard Chen</name>
+    </author>
+    <author>
+      <name>Ryan Liu</name>
+    </author>
+    <author>
+      <name>Manoel Horta Ribeiro</name>
+    </author>
+    <author>
+      <name>Robb Willer</name>
+    </author>
+    <author>
+      <name>Graham Neubig</name>
+    </author>
+    <author>
+      <name>Thomas L. Griffiths</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.03442v3</id>
+    <title>Are language models rational? The case of coherence norms and belief revision</title>
+    <updated>2025-11-14T03:43:25Z</updated>
+    <link href="https://arxiv.org/abs/2406.03442v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.03442v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Do norms of rationality apply to machine learning models, in particular language models? In this paper we investigate this question by focusing on a special subset of rational norms: coherence norms. We consider both logical coherence norms as well as coherence norms tied to the strength of belief. To make sense of the latter, we introduce the Minimal Assent Connection (MAC) and propose a new account of credence, which captures the strength of belief in language models. This proposal uniformly assigns strength of belief simply on the basis of model internal next token probabilities. We argue that rational norms tied to coherence do apply to some language models, but not to others. This issue is significant since rationality is closely tied to predicting and explaining behavior, and thus it is connected to considerations about AI safety and alignment, as well as understanding model behavior more generally.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-05T16:36:21Z</published>
+    <arxiv:comment>substantial expansions of sections 4 and 5, updated references, numerous smaller additions and clarifications</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Thomas Hofweber</name>
+    </author>
+    <author>
+      <name>Peter Hase</name>
+    </author>
+    <author>
+      <name>Elias Stengel-Eskin</name>
+    </author>
+    <author>
+      <name>Mohit Bansal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.04795v1</id>
+    <title>Belief Approach for Social Networks</title>
+    <updated>2015-01-20T13:01:01Z</updated>
+    <link href="https://arxiv.org/abs/1501.04795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.04795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nowadays, social networks became essential in information exchange between individuals. Indeed, as users of these networks, we can send messages to other people according to the links connecting us. Moreover, given the large volume of exchanged messages, detecting the true nature of the received message becomes a challenge. For this purpose, it is interesting to consider this new tendency with reasoning under uncertainty by using the theory of belief functions. In this paper, we tried to model a social network as being a network of fusion of information and determine the true nature of the received message in a well-defined node by proposing a new model: the belief social network.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-20T13:01:01Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Belief 2014, Sep 2014, Oxford, United Kingdom. Lecture Notes in Artificial Intelligence, Lecture Notes in Computer Science, Vol. 8764, pp.115-123, Belief Functions: Theory and Applications</arxiv:journal_ref>
+    <author>
+      <name>Salma Ben Dhaou</name>
+      <arxiv:affiliation>IRISA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mouloud Kharoune</name>
+      <arxiv:affiliation>IRISA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Arnaud Martin</name>
+      <arxiv:affiliation>IRISA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Boutheina Ben Yaghlane</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-319-11191-9_13</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-319-11191-9_13" title="doi"/>
+  </entry>
+</feed>

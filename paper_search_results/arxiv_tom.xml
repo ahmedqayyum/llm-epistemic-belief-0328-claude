@@ -1,0 +1,522 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VpcHWt1hz0eoRE9eUsidiJc/LfM</id>
+  <title>arXiv Query: search_query=all:theory OR all:of OR all:mind AND all:language OR all:model AND all:belief&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-25T20:54:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:theory+OR+(all:of+OR+(all:mind+AND+(all:language+OR+(all:model+AND+all:belief))))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>732868</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.06470v1</id>
+    <title>A Survey of Theory of Mind in Large Language Models: Evaluations, Representations, and Safety Risks</title>
+    <updated>2025-02-10T13:50:25Z</updated>
+    <link href="https://arxiv.org/abs/2502.06470v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.06470v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theory of Mind (ToM), the ability to attribute mental states to others and predict their behaviour, is fundamental to social intelligence. In this paper, we survey studies evaluating behavioural and representational ToM in Large Language Models (LLMs), identify important safety risks from advanced LLM ToM capabilities, and suggest several research directions for effective evaluation and mitigation of these risks.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-10T13:50:25Z</published>
+    <arxiv:comment>Advancing Artificial Intelligence through Theory of Mind Workshop, AAAI 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hieu Minh "Jord" Nguyen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21195v1</id>
+    <title>Belief in the Machine: Investigating Epistemological Blind Spots of Language Models</title>
+    <updated>2024-10-28T16:38:20Z</updated>
+    <link href="https://arxiv.org/abs/2410.21195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As language models (LMs) become integral to fields like healthcare, law, and journalism, their ability to differentiate between fact, belief, and knowledge is essential for reliable decision-making. Failure to grasp these distinctions can lead to significant consequences in areas such as medical diagnosis, legal judgments, and dissemination of fake news. Despite this, current literature has largely focused on more complex issues such as theory of mind, overlooking more fundamental epistemic challenges. This study systematically evaluates the epistemic reasoning capabilities of modern LMs, including GPT-4, Claude-3, and Llama-3, using a new dataset, KaBLE, consisting of 13,000 questions across 13 tasks. Our results reveal key limitations. First, while LMs achieve 86% accuracy on factual scenarios, their performance drops significantly with false scenarios, particularly in belief-related tasks. Second, LMs struggle with recognizing and affirming personal beliefs, especially when those beliefs contradict factual data, which raises concerns for applications in healthcare and counseling, where engaging with a person's beliefs is critical. Third, we identify a salient bias in how LMs process first-person versus third-person beliefs, performing better on third-person tasks (80.7%) compared to first-person tasks (54.4%). Fourth, LMs lack a robust understanding of the factive nature of knowledge, namely, that knowledge inherently requires truth. Fifth, LMs rely on linguistic cues for fact-checking and sometimes bypass the deeper reasoning. These findings highlight significant concerns about current LMs' ability to reason about truth, belief, and knowledge while emphasizing the need for advancements in these areas before broad deployment in critical sectors.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T16:38:20Z</published>
+    <arxiv:comment>https://github.com/suzgunmirac/belief-in-the-machine</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mirac Suzgun</name>
+    </author>
+    <author>
+      <name>Tayfun Gur</name>
+    </author>
+    <author>
+      <name>Federico Bianchi</name>
+    </author>
+    <author>
+      <name>Daniel E. Ho</name>
+    </author>
+    <author>
+      <name>Thomas Icard</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.00924v1</id>
+    <title>Minding Language Models' (Lack of) Theory of Mind: A Plug-and-Play Multi-Character Belief Tracker</title>
+    <updated>2023-06-01T17:24:35Z</updated>
+    <link href="https://arxiv.org/abs/2306.00924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.00924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theory of Mind (ToM)$\unicode{x2014}$the ability to reason about the mental states of other people$\unicode{x2014}$is a key element of our social intelligence. Yet, despite their ever more impressive performance, large-scale neural language models still lack basic theory of mind capabilities out-of-the-box. We posit that simply scaling up models will not imbue them with theory of mind due to the inherently symbolic and implicit nature of the phenomenon, and instead investigate an alternative: can we design a decoding-time algorithm that enhances theory of mind of off-the-shelf neural language models without explicit supervision? We present SymbolicToM, a plug-and-play approach to reason about the belief states of multiple characters in reading comprehension tasks via explicit symbolic representation. More concretely, our approach tracks each entity's beliefs, their estimation of other entities' beliefs, and higher-order levels of reasoning, all through graphical representations, allowing for more precise and interpretable reasoning than previous approaches. Empirical results on the well-known ToMi benchmark (Le et al., 2019) demonstrate that SymbolicToM dramatically enhances off-the-shelf neural networks' theory of mind in a zero-shot setting while showing robust out-of-distribution performance compared to supervised baselines. Our work also reveals spurious patterns in existing theory of mind benchmarks, emphasizing the importance of out-of-distribution evaluation and methods that do not overfit a particular dataset.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-01T17:24:35Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>ACL 2023</arxiv:journal_ref>
+    <author>
+      <name>Melanie Sclar</name>
+    </author>
+    <author>
+      <name>Sachin Kumar</name>
+    </author>
+    <author>
+      <name>Peter West</name>
+    </author>
+    <author>
+      <name>Alane Suhr</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Yulia Tsvetkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.10416v2</id>
+    <title>Grounding Language about Belief in a Bayesian Theory-of-Mind</title>
+    <updated>2024-07-09T01:19:50Z</updated>
+    <link href="https://arxiv.org/abs/2402.10416v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.10416v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the fact that beliefs are mental states that cannot be directly observed, humans talk about each others' beliefs on a regular basis, often using rich compositional language to describe what others think and know. What explains this capacity to interpret the hidden epistemic content of other minds? In this paper, we take a step towards an answer by grounding the semantics of belief statements in a Bayesian theory-of-mind: By modeling how humans jointly infer coherent sets of goals, beliefs, and plans that explain an agent's actions, then evaluating statements about the agent's beliefs against these inferences via epistemic logic, our framework provides a conceptual role semantics for belief, explaining the gradedness and compositionality of human belief attributions, as well as their intimate connection with goals and plans. We evaluate this framework by studying how humans attribute goals and beliefs while watching an agent solve a doors-and-keys gridworld puzzle that requires instrumental reasoning about hidden objects. In contrast to pure logical deduction, non-mentalizing baselines, and mentalizing that ignores the role of instrumental plans, our model provides a much better fit to human goal and belief attributions, demonstrating the importance of theory-of-mind for a semantics of belief.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-16T02:47:09Z</published>
+    <arxiv:comment>Published at CogSci 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lance Ying</name>
+    </author>
+    <author>
+      <name>Tan Zhi-Xuan</name>
+    </author>
+    <author>
+      <name>Lionel Wong</name>
+    </author>
+    <author>
+      <name>Vikash Mansinghka</name>
+    </author>
+    <author>
+      <name>Joshua Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.04800v1</id>
+    <title>Zero, Finite, and Infinite Belief History of Theory of Mind Reasoning in Large Language Models</title>
+    <updated>2024-06-07T10:04:39Z</updated>
+    <link href="https://arxiv.org/abs/2406.04800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.04800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) have recently shown a promise and emergence of Theory of Mind (ToM) ability and even outperform humans in certain ToM tasks. To evaluate and extend the boundaries of the ToM reasoning ability of LLMs, we propose a novel concept, taxonomy, and framework, the ToM reasoning with Zero, Finite, and Infinite Belief History and develop a multi-round text-based game, called $\textit{Pick the Right Stuff}$, as a benchmark. We have evaluated six LLMs with this game and found their performance on Zero Belief History is consistently better than on Finite Belief History. In addition, we have found two of the models with small parameter sizes outperform all the evaluated models with large parameter sizes. We expect this work to pave the way for future ToM benchmark development and also for the promotion and development of more complex AI agents or systems which are required to be equipped with more complex ToM reasoning ability.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-07T10:04:39Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Weizhi Tang</name>
+    </author>
+    <author>
+      <name>Vaishak Belle</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9707234v2</id>
+    <title>Variational Approach to Quantum Field Theory: Gaussian Approximation and the Perturbative Expansion around It</title>
+    <updated>1997-08-21T09:31:53Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9707234v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9707234v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The functional Schrodinger picture formulation of quantum field theory and the variational Gaussian approximation method based on the formulation are briefly reviewed. After presenting recent attempts to improve the variational approximation, we introduce a new systematic method based on the background field method, which enables one to compute the order-by-order correction terms to the Gaussian approximation of the effective action.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-07-29T07:42:59Z</published>
+    <arxiv:comment>To appear in the proceedings of APCTP-ICTP Joint International Conference '97 on "Recent Developments in Nonperturbative Quantum Field Theory". new references are added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Jae Hyung Yee</name>
+      <arxiv:affiliation>Yonsei Univ.</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.10701v3</id>
+    <title>Theory of Mind for Multi-Agent Collaboration via Large Language Models</title>
+    <updated>2024-06-26T20:15:34Z</updated>
+    <link href="https://arxiv.org/abs/2310.10701v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.10701v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While Large Language Models (LLMs) have demonstrated impressive accomplishments in both reasoning and planning, their abilities in multi-agent collaborations remains largely unexplored. This study evaluates LLM-based agents in a multi-agent cooperative text game with Theory of Mind (ToM) inference tasks, comparing their performance with Multi-Agent Reinforcement Learning (MARL) and planning-based baselines. We observed evidence of emergent collaborative behaviors and high-order Theory of Mind capabilities among LLM-based agents. Our results reveal limitations in LLM-based agents' planning optimization due to systematic failures in managing long-horizon contexts and hallucination about the task state. We explore the use of explicit belief state representations to mitigate these issues, finding that it enhances task performance and the accuracy of ToM inferences for LLM-based agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-16T07:51:19Z</published>
+    <arxiv:comment>Accepted to EMNLP 2023 (Main Conference). Code available at https://github.com/romanlee6/multi_LLM_comm</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>in Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, Page 180-192, ACL</arxiv:journal_ref>
+    <author>
+      <name>Huao Li</name>
+    </author>
+    <author>
+      <name>Yu Quan Chong</name>
+    </author>
+    <author>
+      <name>Simon Stepputtis</name>
+    </author>
+    <author>
+      <name>Joseph Campbell</name>
+    </author>
+    <author>
+      <name>Dana Hughes</name>
+    </author>
+    <author>
+      <name>Michael Lewis</name>
+    </author>
+    <author>
+      <name>Katia Sycara</name>
+    </author>
+    <arxiv:doi>10.18653/v1/2023.emnlp-main.13</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.18653/v1/2023.emnlp-main.13" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.21106v4</id>
+    <title>Function Alignment: A New Theory of Mind and Intelligence, Part I: Foundations</title>
+    <updated>2025-04-14T13:44:55Z</updated>
+    <link href="https://arxiv.org/abs/2503.21106v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.21106v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper introduces function alignment, a novel theory of mind and intelligence that is both intuitively compelling and structurally grounded. It explicitly models how meaning, interpretation, and analogy emerge from interactions among layered representations, forming a coherent framework capable not only of modeling minds but also of serving as a blueprint for building them. One of the key theoretical insights derived from function alignment is bounded interpretability, which provides a unified explanation for previously fragmented ideas in cognitive science, such as bounded rationality, symbol grounding, and analogy-making. Beyond modeling, the function alignment framework bridges disciplines often kept apart, linking computational architecture, psychological theory, and even contemplative traditions such as Zen. Rather than building on any philosophical systems, it offers a structural foundation upon which multiple ways of understanding the mind may be reconstructed.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-27T02:59:01Z</published>
+    <arxiv:comment>12 pages, 2 figures. Part I of a multi-part position paper on a new theory of mind</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Gus G. Xia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.06004v3</id>
+    <title>Perceptions to Beliefs: Exploring Precursory Inferences for Theory of Mind in Large Language Models</title>
+    <updated>2024-11-06T22:07:06Z</updated>
+    <link href="https://arxiv.org/abs/2407.06004v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.06004v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While humans naturally develop theory of mind (ToM), the capability to understand other people's mental states and beliefs, state-of-the-art large language models (LLMs) underperform on simple ToM benchmarks. We posit that we can extend our understanding of LLMs' ToM abilities by evaluating key human ToM precursors$-$perception inference and perception-to-belief inference$-$in LLMs. We introduce two datasets, Percept-ToMi and Percept-FANToM, to evaluate these precursory inferences for ToM in LLMs by annotating characters' perceptions on ToMi and FANToM, respectively. Our evaluation of eight state-of-the-art LLMs reveals that the models generally perform well in perception inference while exhibiting limited capability in perception-to-belief inference (e.g., lack of inhibitory control). Based on these results, we present PercepToM, a novel ToM method leveraging LLMs' strong perception inference capability while supplementing their limited perception-to-belief inference. Experimental results demonstrate that PercepToM significantly enhances LLM's performance, especially in false belief scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-08T14:58:29Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Chani Jung</name>
+    </author>
+    <author>
+      <name>Dongkwan Kim</name>
+    </author>
+    <author>
+      <name>Jiho Jin</name>
+    </author>
+    <author>
+      <name>Jiseon Kim</name>
+    </author>
+    <author>
+      <name>Yeon Seonwoo</name>
+    </author>
+    <author>
+      <name>Yejin Choi</name>
+    </author>
+    <author>
+      <name>Alice Oh</name>
+    </author>
+    <author>
+      <name>Hyunwoo Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.20320v1</id>
+    <title>Theory of Mind in Large Language Models: Examining Performance of 11 State-of-the-Art models vs. Children Aged 7-10 on Advanced Tests</title>
+    <updated>2023-10-31T09:55:07Z</updated>
+    <link href="https://arxiv.org/abs/2310.20320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.20320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To what degree should we ascribe cognitive capacities to Large Language Models (LLMs), such as the ability to reason about intentions and beliefs known as Theory of Mind (ToM)? Here we add to this emerging debate by (i) testing 11 base- and instruction-tuned LLMs on capabilities relevant to ToM beyond the dominant false-belief paradigm, including non-literal language usage and recursive intentionality; (ii) using newly rewritten versions of standardized tests to gauge LLMs' robustness; (iii) prompting and scoring for open besides closed questions; and (iv) benchmarking LLM performance against that of children aged 7-10 on the same tasks. We find that instruction-tuned LLMs from the GPT family outperform other models, and often also children. Base-LLMs are mostly unable to solve ToM tasks, even with specialized prompting. We suggest that the interlinked evolution and development of language and ToM may help explain what instruction-tuning adds: rewarding cooperative communication that takes into account interlocutor and context. We conclude by arguing for a nuanced perspective on ToM in LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-31T09:55:07Z</published>
+    <arxiv:comment>14 pages, 4 figures, Forthcoming in Proceedings of the 27th Conference on Computational Natural Language Learning (CoNLL)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Max J. van Duijn</name>
+    </author>
+    <author>
+      <name>Bram M. A. van Dijk</name>
+    </author>
+    <author>
+      <name>Tom Kouwenhoven</name>
+    </author>
+    <author>
+      <name>Werner de Valk</name>
+    </author>
+    <author>
+      <name>Marco R. Spruit</name>
+    </author>
+    <author>
+      <name>Peter van der Putten</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15253v4</id>
+    <title>MindDial: Belief Dynamics Tracking with Theory-of-Mind Modeling for Situated Neural Dialogue Generation</title>
+    <updated>2024-05-24T07:46:15Z</updated>
+    <link href="https://arxiv.org/abs/2306.15253v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15253v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Humans talk in daily conversations while aligning and negotiating the expressed meanings or common ground. Despite the impressive conversational abilities of the large generative language models, they do not consider the individual differences in contextual understanding in a shared situated environment. In this work, we propose MindDial, a novel conversational framework that can generate situated free-form responses with theory-of-mind modeling. We introduce an explicit mind module that can track the speaker's belief and the speaker's prediction of the listener's belief. Then the next response is generated to resolve the belief difference and take task-related action. Our framework is applied to both prompting and fine-tuning-based models, and is evaluated across scenarios involving both common ground alignment and negotiation. Experiments show that models with mind modeling can achieve higher task outcomes when aligning and negotiating common ground. The ablation study further validates the three-level belief design can aggregate information and improve task outcomes in both cooperative and negotiating settings.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T07:24:32Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Shuwen Qiu</name>
+    </author>
+    <author>
+      <name>Mingdian Liu</name>
+    </author>
+    <author>
+      <name>Hengli Li</name>
+    </author>
+    <author>
+      <name>Song-Chun Zhu</name>
+    </author>
+    <author>
+      <name>Zilong Zheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.17513v3</id>
+    <title>Brittle Minds, Fixable Activations: Understanding Belief Representations in Language Models</title>
+    <updated>2025-05-19T16:43:13Z</updated>
+    <link href="https://arxiv.org/abs/2406.17513v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.17513v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite growing interest in Theory of Mind (ToM) tasks for evaluating language models (LMs), little is known about how LMs internally represent mental states of self and others. Understanding these internal mechanisms is critical - not only to move beyond surface-level performance, but also for model alignment and safety, where subtle misattributions of mental states may go undetected in generated outputs. In this work, we present the first systematic investigation of belief representations in LMs by probing models across different scales, training regimens, and prompts - using control tasks to rule out confounds. Our experiments provide evidence that both model size and fine-tuning substantially improve LMs' internal representations of others' beliefs, which are structured - not mere by-products of spurious correlations - yet brittle to prompt variations. Crucially, we show that these representations can be strengthened: targeted edits to model activations can correct wrong ToM inferences.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-25T12:51:06Z</published>
+    <arxiv:comment>ICML 2024 Workshop on Mechanistic Interpretability version: https://openreview.net/forum?id=yEwEVoH9Be</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Matteo Bortoletto</name>
+    </author>
+    <author>
+      <name>Constantin Ruhdorfer</name>
+    </author>
+    <author>
+      <name>Lei Shi</name>
+    </author>
+    <author>
+      <name>Andreas Bulling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.06825v3</id>
+    <title>Towards a Science of Mind</title>
+    <updated>2019-07-29T16:58:06Z</updated>
+    <link href="https://arxiv.org/abs/1811.06825v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.06825v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ancient mind/body problem continues to be one of deepest mysteries of science and of the human spirit. Despite major advances in many fields, there is still no plausible link between subjective experience (qualia) and its realization in the body. This paper outlines some of the elements of a rigorous science of mind (SoM) - key ideas include scientific realism of mind, agnostic mysterianism, careful attention to language, and a focus on concrete (touchstone) questions and results. A core suggestion is to focus effort on the (still mysterious) mapping from neural activity to subjective experience.</summary>
+    <category term="cs.GL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-06T18:02:40Z</published>
+    <arxiv:comment>18 pages and 1 Figure. The ancient mind/body remains a scientific and existential mystery. This article develops a methodology for an incremental Science of Mind and describes some ongoing prospects and successes. Updates include additional phenomena, including emotions,and several more references. A major addition is a postulated general (mysterious) brain-mind mapping</arxiv:comment>
+    <arxiv:primary_category term="cs.GL"/>
+    <author>
+      <name>Jerome Feldman</name>
+      <arxiv:affiliation>ICSI and UC Berkeley</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1007/s41470-019-00041-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s41470-019-00041-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.10773v1</id>
+    <title>Theory of Mind and Self-Disclosure to CUIs</title>
+    <updated>2025-07-14T19:57:18Z</updated>
+    <link href="https://arxiv.org/abs/2507.10773v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.10773v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-disclosure is important to help us feel better, yet is often difficult. This difficulty can arise from how we think people are going to react to our self-disclosure. In this workshop paper, we briefly discuss self-disclosure to conversational user interfaces (CUIs) in relation to various social cues. We then, discuss how expressions of uncertainty or representation of a CUI's reasoning could help encourage self-disclosure, by making a CUI's intended "theory of mind" more transparent to users.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-14T19:57:18Z</published>
+    <arxiv:comment>Workshop paper presented at ToMinHAI at CUI'2025: Theory of Mind in Human-CUI Interaction, held in conjunction with the 2025 ACM conference on Conversational User Interfaces, July 8th, 2025. 4 pages. 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Samuel Rhys Cox</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/chao-dyn/9311011v2</id>
+    <title>The Great Inequality In A Hamiltonian Planetary Theory</title>
+    <updated>1993-12-07T04:05:12Z</updated>
+    <link href="https://arxiv.org/abs/chao-dyn/9311011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/chao-dyn/9311011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Jupiter-Saturn 2:5 near-commensurability is analyzed in a fully analytic Hamiltonian planetary theory. Computations for the Sun-Jupiter-Saturn system, extending to the third order of the masses and to the 8th degree in the eccentricities and inclinations, reveal an unexpectedly sensitive dependence of the solution on initial data and its likely nonconvergence. The source of the sensitivity and apparent lack of convergence is this near-commensurability, the so-called great inequality. This indicates that simple averaging, still common in current semi-analytic planetary theories, may not be an adequate technique to obtain information on the long-term dynamics of the Solar System.
+  Preliminary results suggest that these difficulties can be overcome by using resonant normal forms.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-11-30T04:18:23Z</published>
+    <arxiv:comment>6 pages, PostScript, compressed and uuencoded, 150KB, figures included, hard copy available upon request</arxiv:comment>
+    <arxiv:primary_category term="nlin.CD"/>
+    <author>
+      <name>F. Varadi</name>
+      <arxiv:affiliation>Institute of Geophysics and Planetary Physics University of California, Los Angeles Los Angeles,CA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Ghil</name>
+      <arxiv:affiliation>Institute of Geophysics and Planetary Physics University of California, Los Angeles Los Angeles,CA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. M. Kaula</name>
+      <arxiv:affiliation>Institute of Geophysics and Planetary Physics University of California, Los Angeles Los Angeles,CA</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Keywords</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>Hamiltonian systems</name>
+    </author>
+    <author>
+      <name>planetary motion</name>
+    </author>
+    <author>
+      <name>perturbation theory</name>
+    </author>
+    <author>
+      <name> resonances</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02083v7</id>
+    <title>Evaluating Large Language Models in Theory of Mind Tasks</title>
+    <updated>2024-11-04T19:51:53Z</updated>
+    <link href="https://arxiv.org/abs/2302.02083v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02083v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Eleven Large Language Models (LLMs) were assessed using a custom-made battery of false-belief tasks, considered a gold standard in testing Theory of Mind (ToM) in humans. The battery included 640 prompts spread across 40 diverse tasks, each one including a false-belief scenario, three closely matched true-belief control scenarios, and the reversed versions of all four. To solve a single task, a model needed to correctly answer 16 prompts across all eight scenarios. Smaller and older models solved no tasks; GPT-3-davinci-003 (from November 2022) and ChatGPT-3.5-turbo (from March 2023) solved 20% of the tasks; ChatGPT-4 (from June 2023) solved 75% of the tasks, matching the performance of six-year-old children observed in past studies. We explore the potential interpretation of these findings, including the intriguing possibility that ToM, previously considered exclusive to humans, may have spontaneously emerged as a byproduct of LLMs' improving language skills.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-04T03:50:01Z</published>
+    <arxiv:comment>TRY RUNNING ToM EXPERIMENTS ON YOUR OWN: The code and tasks used in this study are available at Colab (https://colab.research.google.com/drive/1ZRtmw87CdA4xp24DNS_Ik_uA2ypaRnoU). Don't worry if you are not an expert coder, you should be able to run this code with no-to-minimum Python skills. Or copy-paste the tasks to ChatGPT's web interface. Proceedings of the National Academy of Sciences (PNAS) 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Michal Kosinski</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.2405460121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.2405460121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.16755v1</id>
+    <title>HI-TOM: A Benchmark for Evaluating Higher-Order Theory of Mind Reasoning in Large Language Models</title>
+    <updated>2023-10-25T16:41:15Z</updated>
+    <link href="https://arxiv.org/abs/2310.16755v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.16755v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theory of Mind (ToM) is the ability to reason about one's own and others' mental states. ToM plays a critical role in the development of intelligence, language understanding, and cognitive processes. While previous work has primarily focused on first and second-order ToM, we explore higher-order ToM, which involves recursive reasoning on others' beliefs. We introduce HI-TOM, a Higher Order Theory of Mind benchmark. Our experimental evaluation using various Large Language Models (LLMs) indicates a decline in performance on higher-order ToM tasks, demonstrating the limitations of current LLMs. We conduct a thorough analysis of different failure cases of LLMs, and share our thoughts on the implications of our findings on the future of NLP.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-25T16:41:15Z</published>
+    <arxiv:comment>Accepted at Findings of EMNLP 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <arxiv:journal_ref>Findings of EMNLP 2023</arxiv:journal_ref>
+    <author>
+      <name>Yinghui He</name>
+    </author>
+    <author>
+      <name>Yufan Wu</name>
+    </author>
+    <author>
+      <name>Yilin Jia</name>
+    </author>
+    <author>
+      <name>Rada Mihalcea</name>
+    </author>
+    <author>
+      <name>Yulong Chen</name>
+    </author>
+    <author>
+      <name>Naihao Deng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.06762v3</id>
+    <title>Explicit Modelling of Theory of Mind for Belief Prediction in Nonverbal Social Interactions</title>
+    <updated>2024-08-28T11:26:06Z</updated>
+    <link href="https://arxiv.org/abs/2407.06762v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.06762v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose MToMnet - a Theory of Mind (ToM) neural network for predicting beliefs and their dynamics during human social interactions from multimodal input. ToM is key for effective nonverbal human communication and collaboration, yet, existing methods for belief modelling have not included explicit ToM modelling or have typically been limited to one or two modalities. MToMnet encodes contextual cues (scene videos and object locations) and integrates them with person-specific cues (human gaze and body language) in a separate MindNet for each person. Inspired by prior research on social cognition and computational ToM, we propose three different MToMnet variants: two involving fusion of latent representations and one involving re-ranking of classification scores. We evaluate our approach on two challenging real-world datasets, one focusing on belief prediction, while the other examining belief dynamics prediction. Our results demonstrate that MToMnet surpasses existing methods by a large margin while at the same time requiring a significantly smaller number of parameters. Taken together, our method opens up a highly promising direction for future work on artificial intelligent systems that can robustly predict human beliefs from their non-verbal behaviour and, as such, more effectively collaborate with humans.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-09T11:15:51Z</published>
+    <arxiv:comment>ECAI 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Matteo Bortoletto</name>
+    </author>
+    <author>
+      <name>Constantin Ruhdorfer</name>
+    </author>
+    <author>
+      <name>Lei Shi</name>
+    </author>
+    <author>
+      <name>Andreas Bulling</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.12022v2</id>
+    <title>Understanding Epistemic Language with a Language-augmented Bayesian Theory of Mind</title>
+    <updated>2025-04-18T15:31:32Z</updated>
+    <link href="https://arxiv.org/abs/2408.12022v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.12022v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How do people understand and evaluate claims about others' beliefs, even though these beliefs cannot be directly observed? In this paper, we introduce a cognitive model of epistemic language interpretation, grounded in Bayesian inferences about other agents' goals, beliefs, and intentions: a language-augmented Bayesian theory-of-mind (LaBToM). By translating natural language into an epistemic ``language-of-thought'' with grammar-constrained LLM decoding, then evaluating these translations against the inferences produced by inverting a generative model of rational action and perception, LaBToM captures graded plausibility judgments of epistemic claims. We validate our model in an experiment where participants watch an agent navigate a maze to find keys hidden in boxes needed to reach their goal, then rate sentences about the agent's beliefs. In contrast with multimodal LLMs (GPT-4o, Gemini Pro) and ablated models, our model correlates highly with human judgments for a wide range of expressions, including modal language, uncertainty expressions, knowledge claims, likelihood comparisons, and attributions of false belief.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-21T22:29:56Z</published>
+    <arxiv:comment>23 pages; Published at the Transactions of the Association for Computational Linguistics (TACL); Presented at NAACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lance Ying</name>
+    </author>
+    <author>
+      <name>Tan Zhi-Xuan</name>
+    </author>
+    <author>
+      <name>Lionel Wong</name>
+    </author>
+    <author>
+      <name>Vikash Mansinghka</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.08154v1</id>
+    <title>LLM Theory of Mind and Alignment: Opportunities and Risks</title>
+    <updated>2024-05-13T19:52:16Z</updated>
+    <link href="https://arxiv.org/abs/2405.08154v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.08154v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are transforming human-computer interaction and conceptions of artificial intelligence (AI) with their impressive capacities for conversing and reasoning in natural language. There is growing interest in whether LLMs have theory of mind (ToM); the ability to reason about the mental and emotional states of others that is core to human social intelligence. As LLMs are integrated into the fabric of our personal, professional and social lives and given greater agency to make decisions with real-world consequences, there is a critical need to understand how they can be aligned with human values. ToM seems to be a promising direction of inquiry in this regard. Following the literature on the role and impacts of human ToM, this paper identifies key areas in which LLM ToM will show up in human:LLM interactions at individual and group levels, and what opportunities and risks for alignment are raised in each. On the individual level, the paper considers how LLM ToM might manifest in goal specification, conversational adaptation, empathy and anthropomorphism. On the group level, it considers how LLM ToM might facilitate collective alignment, cooperation or competition, and moral judgement-making. The paper lays out a broad spectrum of potential implications and suggests the most pressing areas for future research.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-13T19:52:16Z</published>
+    <arxiv:primary_category term="cs.HC"/>
+    <arxiv:journal_ref>Proceedings of Workshop on Theory of Mind in Human-AI Interaction at CHI 2024 (ToMinHAI at CHI 2024)</arxiv:journal_ref>
+    <author>
+      <name>Winnie Street</name>
+    </author>
+  </entry>
+</feed>

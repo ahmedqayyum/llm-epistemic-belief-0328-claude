@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hzg+a2g63aGLFmkI811Ldop2Fv8</id>
+  <title>arXiv Query: search_query=all:epistemic AND all:belief AND all:language OR all:model&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-02-25T20:54:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:epistemic+AND+(all:belief+AND+(all:language+OR+all:model))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>211</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.21195v1</id>
+    <title>Belief in the Machine: Investigating Epistemological Blind Spots of Language Models</title>
+    <updated>2024-10-28T16:38:20Z</updated>
+    <link href="https://arxiv.org/abs/2410.21195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.21195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As language models (LMs) become integral to fields like healthcare, law, and journalism, their ability to differentiate between fact, belief, and knowledge is essential for reliable decision-making. Failure to grasp these distinctions can lead to significant consequences in areas such as medical diagnosis, legal judgments, and dissemination of fake news. Despite this, current literature has largely focused on more complex issues such as theory of mind, overlooking more fundamental epistemic challenges. This study systematically evaluates the epistemic reasoning capabilities of modern LMs, including GPT-4, Claude-3, and Llama-3, using a new dataset, KaBLE, consisting of 13,000 questions across 13 tasks. Our results reveal key limitations. First, while LMs achieve 86% accuracy on factual scenarios, their performance drops significantly with false scenarios, particularly in belief-related tasks. Second, LMs struggle with recognizing and affirming personal beliefs, especially when those beliefs contradict factual data, which raises concerns for applications in healthcare and counseling, where engaging with a person's beliefs is critical. Third, we identify a salient bias in how LMs process first-person versus third-person beliefs, performing better on third-person tasks (80.7%) compared to first-person tasks (54.4%). Fourth, LMs lack a robust understanding of the factive nature of knowledge, namely, that knowledge inherently requires truth. Fifth, LMs rely on linguistic cues for fact-checking and sometimes bypass the deeper reasoning. These findings highlight significant concerns about current LMs' ability to reason about truth, belief, and knowledge while emphasizing the need for advancements in these areas before broad deployment in critical sectors.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-28T16:38:20Z</published>
+    <arxiv:comment>https://github.com/suzgunmirac/belief-in-the-machine</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mirac Suzgun</name>
+    </author>
+    <author>
+      <name>Tayfun Gur</name>
+    </author>
+    <author>
+      <name>Federico Bianchi</name>
+    </author>
+    <author>
+      <name>Daniel E. Ho</name>
+    </author>
+    <author>
+      <name>Thomas Icard</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+    <author>
+      <name>James Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.14295v2</id>
+    <title>Epistemic Constitutionalism Or: how to avoid coherence bias</title>
+    <updated>2026-01-27T19:15:46Z</updated>
+    <link href="https://arxiv.org/abs/2601.14295v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.14295v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models increasingly function as artificial reasoners: they evaluate arguments, assign credibility, and express confidence. Yet their belief-forming behavior is governed by implicit, uninspected epistemic policies. This paper argues for an epistemic constitution for AI: explicit, contestable meta-norms that regulate how systems form and express beliefs. Source attribution bias provides the motivating case: I show that frontier models enforce identity-stance coherence, penalizing arguments attributed to sources whose expected ideological position conflicts with the argument's content. When models detect systematic testing, these effects collapse, revealing that systems treat source-sensitivity as bias to suppress rather than as a capacity to execute well. I distinguish two constitutional approaches: the Platonic, which mandates formal correctness and default source-independence from a privileged standpoint, and the Liberal, which refuses such privilege, specifying procedural norms that protect conditions for collective inquiry while allowing principled source-attending grounded in epistemic vigilance. I argue for the Liberal approach, sketch a constitutional core of eight principles and four orientations, and propose that AI epistemic governance requires the same explicit, contestable structure we now expect for AI ethics.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-16T07:36:30Z</published>
+    <arxiv:comment>27 pages, 7 tables. Data: github.com/MicheleLoi/source-attribution-bias-data and github.com/MicheleLoi/source-attribution-bias-swiss-replication. Complete AI-assisted writing documentation: github.com/MicheleLoi/epistemic-constitutionalism-paper</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Michele Loi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.09114v1</id>
+    <title>Exploiting Belief Bases for Building Rich Epistemic Structures</title>
+    <updated>2019-07-22T03:18:48Z</updated>
+    <link href="https://arxiv.org/abs/1907.09114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.09114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a semantics for epistemic logic exploiting a belief base abstraction. Differently from existing Kripke-style semantics for epistemic logic in which the notions of possible world and epistemic alternative are primitive, in the proposed semantics they are non-primitive but are defined from the concept of belief base. We show that this semantics allows us to define the universal epistemic model in a simpler and more compact way than existing inductive constructions of it. We provide (i) a number of semantic equivalence results for both the basic epistemic language with "individual belief" operators and its extension by the notion of "only believing", and (ii) a lower bound complexity result for epistemic logic model checking relative to the universal epistemic model.</summary>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-22T03:18:48Z</published>
+    <arxiv:comment>In Proceedings TARK 2019, arXiv:1907.08335</arxiv:comment>
+    <arxiv:primary_category term="cs.GT"/>
+    <arxiv:journal_ref>EPTCS 297, 2019, pp. 332-353</arxiv:journal_ref>
+    <author>
+      <name>Emiliano Lorini</name>
+      <arxiv:affiliation>IRIT-CNRS, Toulouse University, France</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.4204/EPTCS.297.21</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4204/EPTCS.297.21" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.12022v2</id>
+    <title>Understanding Epistemic Language with a Language-augmented Bayesian Theory of Mind</title>
+    <updated>2025-04-18T15:31:32Z</updated>
+    <link href="https://arxiv.org/abs/2408.12022v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.12022v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How do people understand and evaluate claims about others' beliefs, even though these beliefs cannot be directly observed? In this paper, we introduce a cognitive model of epistemic language interpretation, grounded in Bayesian inferences about other agents' goals, beliefs, and intentions: a language-augmented Bayesian theory-of-mind (LaBToM). By translating natural language into an epistemic ``language-of-thought'' with grammar-constrained LLM decoding, then evaluating these translations against the inferences produced by inverting a generative model of rational action and perception, LaBToM captures graded plausibility judgments of epistemic claims. We validate our model in an experiment where participants watch an agent navigate a maze to find keys hidden in boxes needed to reach their goal, then rate sentences about the agent's beliefs. In contrast with multimodal LLMs (GPT-4o, Gemini Pro) and ablated models, our model correlates highly with human judgments for a wide range of expressions, including modal language, uncertainty expressions, knowledge claims, likelihood comparisons, and attributions of false belief.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-21T22:29:56Z</published>
+    <arxiv:comment>23 pages; Published at the Transactions of the Association for Computational Linguistics (TACL); Presented at NAACL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Lance Ying</name>
+    </author>
+    <author>
+      <name>Tan Zhi-Xuan</name>
+    </author>
+    <author>
+      <name>Lionel Wong</name>
+    </author>
+    <author>
+      <name>Vikash Mansinghka</name>
+    </author>
+    <author>
+      <name>Joshua B. Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.07079v1</id>
+    <title>Rethinking Epistemic Logic with Belief Bases</title>
+    <updated>2018-12-17T22:30:45Z</updated>
+    <link href="https://arxiv.org/abs/1812.07079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.07079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new semantics for a logic of explicit and implicit beliefs based on the concept of multi-agent belief base. Differently from existing Kripke-style semantics for epistemic logic in which the notions of possible world and doxastic/epistemic alternative are primitive, in our semantics they are non-primitive but are defined from the concept of belief base. We provide a complete axiomatization and prove decidability for our logic via a finite model argument. We also provide a polynomial embedding of our logic into Fagin &amp; Halpern's logic of general awareness and establish a complexity result for our logic via the embedding.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-17T22:30:45Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Emiliano Lorini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.06117v3</id>
+    <title>Paraconsistent Belief Revision: A Replacement-Enriched LFI for Epistemic Entrenchment</title>
+    <updated>2026-02-21T20:13:20Z</updated>
+    <link href="https://arxiv.org/abs/2412.06117v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.06117v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We further develop the formal foundations of Paraconsistent Belief Revision (PBR) by introducing Logics of Formal Inconsistency (LFIs) specifically designed to support the development of epistemic entrenchment-based models for belief change. The interpretation of formal consistency -- and, more broadly, of paraconsistency -- in terms of the epistemic attitudes adopted by rational agents and of these agents reasoning with potentially contradictory yet non-trivial epistemic states, respectively, is already well-established within the literature on PBR based on LFIs. However, previous approaches faced a key limitation: the absence of replacement in most LFIs prevented the construction of entrenchment-based operations. We address this gap by first revisiting and systematizing core properties essential for such modeling, formalizing them within Cbr, a previously introduced logic whose foundational properties we now examine and develop in depth. Building on this, we introduce RCbr, a replacement-enriched, self-extensional extension of Cbr, which makes it possible -- within an LFI-based framework -- to formally define epistemic entrenchment and to construct entrenchment-based belief revision mechanisms. This development enables a fully constructive approach to Belief Revision in paraconsistent settings, further advancing the theoretical treatment of LFIs and paraconsistency within the broader landscape of epistemic states and belief dynamics.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-09T00:38:27Z</published>
+    <arxiv:comment>Several typos were corrected. We include in Section 5 a brief presentation of external revision and semi-revision. A new Subsection 6.1 presents concrete examples and highlight the main gains of our proposal with respect to classical AGM and other paraconsistent frameworks. The preprint was retitled with its final version name</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Marcelo E. Coniglio</name>
+    </author>
+    <author>
+      <name>Martin Figallo</name>
+    </author>
+    <author>
+      <name>Rafael R. Testa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00647v1</id>
+    <title>An Evidential Neural Network Model for Regression Based on Random Fuzzy Numbers</title>
+    <updated>2022-08-01T07:13:31Z</updated>
+    <link href="https://arxiv.org/abs/2208.00647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a distance-based neural network model for regression, in which prediction uncertainty is quantified by a belief function on the real line. The model interprets the distances of the input vector to prototypes as pieces of evidence represented by Gaussian random fuzzy numbers (GRFN's) and combined by the generalized product intersection rule, an operator that extends Dempster's rule to random fuzzy sets. The network output is a GRFN that can be summarized by three numbers characterizing the most plausible predicted value, variability around this value, and epistemic uncertainty. Experiments with real datasets demonstrate the very good performance of the method as compared to state-of-the-art evidential and statistical learning algorithms. \keywords{Evidence theory, Dempster-Shafer theory, belief functions, machine learning, random fuzzy sets.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-01T07:13:31Z</published>
+    <arxiv:comment>7th International Conference on Belief Functions (BELIEF 2022), Paris, France, October 26-28, 2022</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <arxiv:journal_ref>In: Le Hégarat-Mascle, S., Bloch, I., Aldea, E. (eds) Belief Functions: Theory and Applications. BELIEF 2022. Lecture Notes in Computer Science, vol 13506. Springer, Cham, 2022, pp.57-66</arxiv:journal_ref>
+    <author>
+      <name>Thierry Denoeux</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-17801-6_6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-17801-6_6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.06178v1</id>
+    <title>Iterated Belief Base Revision: A Dynamic Epistemic Logic Approach</title>
+    <updated>2019-02-17T00:14:26Z</updated>
+    <link href="https://arxiv.org/abs/1902.06178v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.06178v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AGM's belief revision is one of the main paradigms in the study of belief change operations. In this context, belief bases (prioritised bases) have been largely used to specify the agent's belief state - whether representing the agent's `explicit beliefs' or as a computational model for her belief state. While the connection of iterated AGM-like operations and their encoding in dynamic epistemic logics have been studied before, few works considered how well-known postulates from iterated belief revision theory can be characterised by means of belief bases and their counterpart in a dynamic epistemic logic. This work investigates how priority graphs, a syntactic representation of preference relations deeply connected to prioritised bases, can be used to characterise belief change operators, focusing on well-known postulates of Iterated Belief Change. We provide syntactic representations of belief change operators in a dynamic context, as well as new negative results regarding the possibility of representing an iterated belief revision operation using transformations on priority graphs.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-17T00:14:26Z</published>
+    <arxiv:comment>8 pages, AAAI2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Marlo Souza</name>
+    </author>
+    <author>
+      <name>Álvaro Moreira</name>
+    </author>
+    <author>
+      <name>Renata Vieira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.10515v1</id>
+    <title>Bringing Belief Base Change into Dynamic Epistemic Logic</title>
+    <updated>2019-12-22T19:21:05Z</updated>
+    <link href="https://arxiv.org/abs/1912.10515v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.10515v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AGM's belief revision is one of the main paradigms in the study of belief change operations. In this context, belief bases (prioritised bases) have been primarily used to specify the agent's belief state. While the connection of iterated AGM-like operations and their encoding in dynamic epistemic logics have been studied before, few works considered how well-known postulates from iterated belief revision theory can be characterised by means of belief bases and their counterpart in dynamic epistemic logic. Particularly, it has been shown that some postulates can be characterised through transformations in priority graphs, while others may not be represented that way. This work investigates changes in the semantics of Dynamic Preference Logic that give rise to an appropriate syntactic representation for its models that allow us to represent and reason about iterated belief base change in this logic.</summary>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-22T19:21:05Z</published>
+    <arxiv:comment>Published at DaLI 2019</arxiv:comment>
+    <arxiv:primary_category term="cs.LO"/>
+    <author>
+      <name>Marlo Souza</name>
+    </author>
+    <author>
+      <name>Álvaro Moreira</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.04927v1</id>
+    <title>Belief Filtering for Epistemic Control in Linguistic State Space</title>
+    <updated>2025-05-08T03:52:43Z</updated>
+    <link href="https://arxiv.org/abs/2505.04927v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.04927v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine belief filtering as a mechanism for the epistemic control of artificial agents, focusing on the regulation of internal cognitive states represented as linguistic expressions. This mechanism is developed within the Semantic Manifold framework, where belief states are dynamic, structured ensembles of natural language fragments. Belief filters act as content-aware operations on these fragments across various cognitive transitions. This paper illustrates how the inherent interpretability and modularity of such a linguistically-grounded cognitive architecture directly enable belief filtering, offering a principled approach to agent regulation. The study highlights the potential for enhancing AI safety and alignment through structured interventions in an agent's internal semantic space and points to new directions for architecturally embedded cognitive governance.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-08T03:52:43Z</published>
+    <arxiv:comment>18 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sebastian Dumbrava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.12359v1</id>
+    <title>Epistemic Uncertainty Aware Semantic Localization and Mapping for Inference and Belief Space Planning</title>
+    <updated>2021-05-26T06:48:00Z</updated>
+    <link href="https://arxiv.org/abs/2105.12359v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.12359v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the problem of autonomous object classification and semantic SLAM, which in general exhibits a tight coupling between classification, metric SLAM and planning under uncertainty. We contribute a unified framework for inference and belief space planning (BSP) that addresses prominent sources of uncertainty in this context: classification aliasing (classier cannot distinguish between candidate classes from certain viewpoints), classifier epistemic uncertainty (classifier receives data "far" from its training set), and localization uncertainty (camera and object poses are uncertain). Specifically, we develop two methods for maintaining a joint distribution over robot and object poses, and over posterior class probability vector that considers epistemic uncertainty in a Bayesian fashion. The first approach is Multi-Hybrid (MH), where multiple hybrid beliefs over poses and classes are maintained to approximate the joint belief over poses and posterior class probability. The second approach is Joint Lambda Pose (JLP), where the joint belief is maintained directly using a novel JLP factor. Furthermore, we extend both methods to BSP, planning while reasoning about future posterior epistemic uncertainty indirectly, or directly via a novel information-theoretic reward function. Both inference methods utilize a novel viewpoint-dependent classifier uncertainty model that leverages the coupling between poses and classification scores and predicts the epistemic uncertainty from certain viewpoints. In addition, this model is used to generate predicted measurements during planning. To the best of our knowledge, this is the first work that reasons about classifier epistemic uncertainty within semantic SLAM and BSP.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-26T06:48:00Z</published>
+    <arxiv:comment>44 pages, 38 figures, submitted to Autonomous Robots Journal (ARJ)</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Vladimir Tchuiev</name>
+    </author>
+    <author>
+      <name>Vadim Indelman</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.10416v2</id>
+    <title>Grounding Language about Belief in a Bayesian Theory-of-Mind</title>
+    <updated>2024-07-09T01:19:50Z</updated>
+    <link href="https://arxiv.org/abs/2402.10416v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.10416v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the fact that beliefs are mental states that cannot be directly observed, humans talk about each others' beliefs on a regular basis, often using rich compositional language to describe what others think and know. What explains this capacity to interpret the hidden epistemic content of other minds? In this paper, we take a step towards an answer by grounding the semantics of belief statements in a Bayesian theory-of-mind: By modeling how humans jointly infer coherent sets of goals, beliefs, and plans that explain an agent's actions, then evaluating statements about the agent's beliefs against these inferences via epistemic logic, our framework provides a conceptual role semantics for belief, explaining the gradedness and compositionality of human belief attributions, as well as their intimate connection with goals and plans. We evaluate this framework by studying how humans attribute goals and beliefs while watching an agent solve a doors-and-keys gridworld puzzle that requires instrumental reasoning about hidden objects. In contrast to pure logical deduction, non-mentalizing baselines, and mentalizing that ignores the role of instrumental plans, our model provides a much better fit to human goal and belief attributions, demonstrating the importance of theory-of-mind for a semantics of belief.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-16T02:47:09Z</published>
+    <arxiv:comment>Published at CogSci 2024</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lance Ying</name>
+    </author>
+    <author>
+      <name>Tan Zhi-Xuan</name>
+    </author>
+    <author>
+      <name>Lionel Wong</name>
+    </author>
+    <author>
+      <name>Vikash Mansinghka</name>
+    </author>
+    <author>
+      <name>Joshua Tenenbaum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.20969v2</id>
+    <title>The Epistemic Planning Domain Definition Language: Official Guideline</title>
+    <updated>2026-02-03T17:32:48Z</updated>
+    <link href="https://arxiv.org/abs/2601.20969v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.20969v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Epistemic planning extends (multi-agent) automated planning by making agents' knowledge and beliefs first-class aspects of the planning formalism. One of the most well-known frameworks for epistemic planning is Dynamic Epistemic Logic (DEL), which offers an rich and natural semantics for modelling problems in this setting. The high expressive power provided by DEL make DEL-based epistemic planning a challenging problem to tackle both theoretically, and in practical implementations. As a result, existing epistemic planners often target different DEL fragments, and typically rely on ad hoc languages to represent benchmarks, and sometimes no language at all. This fragmentation hampers comparison, reuse, and systematic benchmark development. We address these issues by introducing the Epistemic Planning Domain Definition Language (EPDDL). EPDDL provides a unique PDDL-like representation that captures the entire DEL semantics, enabling uniform specification of epistemic planning tasks. Our main contributions are: 1. A formal development of abstract event models, a novel representation for epistemic actions used to define the semantics of our language; 2. A formal specification of EPDDL's syntax and semantics grounded in DEL with abstract event models. Through examples of representative benchmarks, we illustrate how EPDDL facilitates interoperability, reproducible evaluation, and future advances in epistemic planning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-28T19:10:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Alessandro Burigana</name>
+    </author>
+    <author>
+      <name>Francesco Fabiano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.09831v1</id>
+    <title>Interpretation as Linear Transformation: A Cognitive-Geometric Model of Belief and Meaning</title>
+    <updated>2025-12-10T17:13:01Z</updated>
+    <link href="https://arxiv.org/abs/2512.09831v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.09831v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper develops a geometric framework for modeling belief, motivation, and influence across cognitively heterogeneous agents. Each agent is represented by a personalized value space, a vector space encoding the internal dimensions through which the agent interprets and evaluates meaning. Beliefs are formalized as structured vectors-abstract beings-whose transmission is mediated by linear interpretation maps. A belief survives communication only if it avoids the null spaces of these maps, yielding a structural criterion for intelligibility, miscommunication, and belief death.
+  Within this framework, I show how belief distortion, motivational drift, counterfactual evaluation, and the limits of mutual understanding arise from purely algebraic constraints. A central result-"the No-Null-Space Leadership Condition"-characterizes leadership as a property of representational reachability rather than persuasion or authority. More broadly, the model explains how abstract beings can propagate, mutate, or disappear as they traverse diverse cognitive geometries.
+  The account unifies insights from conceptual spaces, social epistemology, and AI value alignment by grounding meaning preservation in structural compatibility rather than shared information or rationality. I argue that this cognitive-geometric perspective clarifies the epistemic boundaries of influence in both human and artificial systems, and offers a general foundation for analyzing belief dynamics across heterogeneous agents.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-10T17:13:01Z</published>
+    <arxiv:comment>The first draft of cognitive geometry model</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chainarong Amornbunchornvej</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.05465v3</id>
+    <title>VAL-Bench: Belief Consistency as a measure for Value Alignment in Language Models</title>
+    <updated>2026-01-14T19:30:35Z</updated>
+    <link href="https://arxiv.org/abs/2510.05465v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.05465v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly being used for tasks where outputs shape human decisions, so it is critical to verify that their responses consistently reflect desired human values. Humans, as individuals or groups, don't agree on a universal set of values, which makes evaluating value alignment difficult. Existing benchmarks often use hypothetical or commonsensical situations, which don't capture the complexity and ambiguity of real-life debates. We introduce the Value ALignment Benchmark (VAL-Bench), which measures the consistency in language model belief expressions in response to real-life value-laden prompts. VAL-Bench consists of 115K pairs of prompts designed to elicit opposing stances on a controversial issue, extracted from Wikipedia. We use an LLM-as-a-judge, validated against human annotations, to evaluate if the pair of responses consistently expresses either a neutral or a specific stance on the issue. Applied across leading open- and closed-source models, the benchmark shows considerable variation in consistency rates (ranging from ~10% to ~80%), with Claude models the only ones to achieve high levels of consistency. Lack of consistency in this manner risks epistemic harm by making user beliefs dependent on how questions are framed rather than on underlying evidence, and undermines LLM reliability in trust-critical applications. Therefore, we stress the importance of research towards training belief consistency in modern LLMs. By providing a scalable, reproducible benchmark, VAL-Bench enables systematic measurement of necessary conditions for value alignment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-06T23:55:48Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aman Gupta</name>
+    </author>
+    <author>
+      <name>Denny O'Shea</name>
+    </author>
+    <author>
+      <name>Fazl Barez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.16270v3</id>
+    <title>Reflection-Bench: Evaluating Epistemic Agency in Large Language Models</title>
+    <updated>2025-06-04T11:45:19Z</updated>
+    <link href="https://arxiv.org/abs/2410.16270v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.16270v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With large language models (LLMs) increasingly deployed as cognitive engines for AI agents, the reliability and effectiveness critically hinge on their intrinsic epistemic agency, which remains understudied. Epistemic agency, the ability to flexibly construct, adapt, and monitor beliefs about dynamic environments, represents a base-model-level capacity independent of specific tools, modules, or applications. We characterize the holistic process underlying epistemic agency, which unfolds in seven interrelated dimensions: prediction, decision-making, perception, memory, counterfactual thinking, belief updating, and meta-reflection. Correspondingly, we propose Reflection-Bench, a cognitive-psychology-inspired benchmark consisting of seven tasks with long-term relevance and minimization of data leakage. Through a comprehensive evaluation of 16 models using three prompting strategies, we identify a clear three-tier performance hierarchy and significant limitations of current LLMs, particularly in meta-reflection capabilities. While state-of-the-art LLMs demonstrate rudimentary signs of epistemic agency, our findings suggest several promising research directions, including enhancing core cognitive functions, improving cross-functional coordination, and developing adaptive processing mechanisms. Our code and data are available at https://github.com/AI45Lab/ReflectionBench.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-21T17:59:50Z</published>
+    <arxiv:comment>29 pages, 19 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Lingyu Li</name>
+    </author>
+    <author>
+      <name>Yixu Wang</name>
+    </author>
+    <author>
+      <name>Haiquan Zhao</name>
+    </author>
+    <author>
+      <name>Shuqi Kong</name>
+    </author>
+    <author>
+      <name>Yan Teng</name>
+    </author>
+    <author>
+      <name>Chunbo Li</name>
+    </author>
+    <author>
+      <name>Yingchun Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.10934v1</id>
+    <title>Dynamic Epistemic Friction in Dialogue</title>
+    <updated>2025-06-12T17:41:00Z</updated>
+    <link href="https://arxiv.org/abs/2506.10934v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.10934v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent developments in aligning Large Language Models (LLMs) with human preferences have significantly enhanced their utility in human-AI collaborative scenarios. However, such approaches often neglect the critical role of "epistemic friction," or the inherent resistance encountered when updating beliefs in response to new, conflicting, or ambiguous information. In this paper, we define dynamic epistemic friction as the resistance to epistemic integration, characterized by the misalignment between an agent's current belief state and new propositions supported by external evidence. We position this within the framework of Dynamic Epistemic Logic (Van Benthem and Pacuit, 2011), where friction emerges as nontrivial belief-revision during the interaction. We then present analyses from a situated collaborative task that demonstrate how this model of epistemic friction can effectively predict belief updates in dialogues, and we subsequently discuss how the model of belief alignment as a measure of epistemic resistance or friction can naturally be made more sophisticated to accommodate the complexities of real-world dialogue scenarios.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-12T17:41:00Z</published>
+    <arxiv:comment>11 pages, 2 figures, 2 tables, CoNLL 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Timothy Obiso</name>
+    </author>
+    <author>
+      <name>Kenneth Lai</name>
+    </author>
+    <author>
+      <name>Abhijnan Nath</name>
+    </author>
+    <author>
+      <name>Nikhil Krishnaswamy</name>
+    </author>
+    <author>
+      <name>James Pustejovsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.11298v2</id>
+    <title>A General Multi-agent Epistemic Planner Based on Higher-order Belief Change</title>
+    <updated>2018-08-14T14:02:49Z</updated>
+    <link href="https://arxiv.org/abs/1806.11298v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.11298v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, multi-agent epistemic planning has received attention from both dynamic logic and planning communities. Existing implementations of multi-agent epistemic planning are based on compilation into classical planning and suffer from various limitations, such as generating only linear plans, restriction to public actions, and incapability to handle disjunctive beliefs. In this paper, we propose a general representation language for multi-agent epistemic planning where the initial KB and the goal, the preconditions and effects of actions can be arbitrary multi-agent epistemic formulas, and the solution is an action tree branching on sensing results. To support efficient reasoning in the multi-agent KD45 logic, we make use of a normal form called alternating cover disjunctive formulas (ACDFs). We propose basic revision and update algorithms for ACDFs. We also handle static propositional common knowledge, which we call constraints. Based on our reasoning, revision and update algorithms, adapting the PrAO algorithm for contingent planning from the literature, we implemented a multi-agent epistemic planner called MEPK. Our experimental results show the viability of our approach.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-29T08:26:55Z</published>
+    <arxiv:comment>One of the authors think it's not appropriate to show this work there days. Then we discussed, we want submit a new work and this one together later</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>IJCAI. (2017) 1093-1101</arxiv:journal_ref>
+    <author>
+      <name>Xiao Huang</name>
+    </author>
+    <author>
+      <name>Biqing Fang</name>
+    </author>
+    <author>
+      <name>Hai Wan</name>
+    </author>
+    <author>
+      <name>Yongmei Liu</name>
+    </author>
+    <arxiv:doi>10.24963/ijcai.2017/152</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.24963/ijcai.2017/152" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.10238v2</id>
+    <title>Learning Latent Beliefs and Performing Epistemic Reasoning for Efficient and Meaningful Dialog Management</title>
+    <updated>2019-05-21T09:36:02Z</updated>
+    <link href="https://arxiv.org/abs/1811.10238v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.10238v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many dialogue management frameworks allow the system designer to directly define belief rules to implement an efficient dialog policy. Because these rules are directly defined, the components are said to be hand-crafted. As dialogues become more complex, the number of states, transitions, and policy decisions becomes very large. To facilitate the dialog policy design process, we propose an approach to automatically learn belief rules using a supervised machine learning approach. We validate our ideas in Student-Advisor conversation domain, where we extract latent beliefs like student is curious, confused and neutral, etc. Further, we also perform epistemic reasoning that helps to tailor the dialog according to student's emotional state and hence improve the overall effectiveness of the dialog system. Our latent belief identification approach shows an accuracy of 87% and this results in efficient and meaningful dialog management.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-26T09:12:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Aishwarya Chhabra</name>
+    </author>
+    <author>
+      <name>Pratik Saini</name>
+    </author>
+    <author>
+      <name>Amit Sangroya</name>
+    </author>
+    <author>
+      <name>C. Anantaram</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0103020v1</id>
+    <title>Belief Revision: A Critique</title>
+    <updated>2001-03-27T20:33:51Z</updated>
+    <link href="https://arxiv.org/abs/cs/0103020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cs/0103020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We examine carefully the rationale underlying the approaches to belief change taken in the literature, and highlight what we view as methodological problems. We argue that to study belief change carefully, we must be quite explicit about the ``ontology'' or scenario underlying the belief change process. This is something that has been missing in previous work, with its focus on postulates. Our analysis shows that we must pay particular attention to two issues that have often been taken for granted: The first is how we model the agent's epistemic state. (Do we use a set of beliefs, or a richer structure, such as an ordering on worlds? And if we use a set of beliefs, in what language are these beliefs are expressed?) We show that even postulates that have been called ``beyond controversy'' are unreasonable when the agent's beliefs include beliefs about her own epistemic state as well as the external world. The second is the status of observations. (Are observations known to be true, or just believed? In the latter case, how firm is the belief?) Issues regarding the status of observations arise particularly when we consider iterated belief revision, and we must confront the possibility of revising by p and then by not-p.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-03-27T20:33:51Z</published>
+    <arxiv:comment>An early version of the paper appeared in KR '96</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <arxiv:journal_ref>Journal of Logic, Language, and Information, vol. 8, 1999, pp. 401-420</arxiv:journal_ref>
+    <author>
+      <name>Nir Friedman</name>
+    </author>
+    <author>
+      <name>Joseph Y. Halpern</name>
+    </author>
+  </entry>
+</feed>

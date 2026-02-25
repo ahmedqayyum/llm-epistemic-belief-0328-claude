@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-02-25T20:52:11.620112",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2026-02-25T20:52:11.620862",
+      "completed_at": "2026-02-25T21:07:20.636902",
+      "success": true,
+      "outputs": {
+        "literature_review": "/workspaces/llm-epistemic-belief-0328-claude/literature_review.md",
+        "resources_catalog": "/workspaces/llm-epistemic-belief-0328-claude/resources.md",
+        "papers_dir": "/workspaces/llm-epistemic-belief-0328-claude/papers",
+        "datasets_dir": "/workspaces/llm-epistemic-belief-0328-claude/datasets",
+        "code_dir": "/workspaces/llm-epistemic-belief-0328-claude/code"
+      }
+    },
+    "experiment_runner": {
+      "status": "failed",
+      "started_at": "2026-02-25T21:07:20.640681",
+      "completed_at": "2026-02-25T21:07:33.347235",
+      "success": false,
+      "outputs": {
+        "success": false,
+        "return_code": 1,
+        "elapsed_time": 12.627013921737671,
+        "log_file": "/workspaces/llm-epistemic-belief-0328-claude/logs/execution_claude.log",
+        "transcript_file": "/workspaces/llm-epistemic-belief-0328-claude/logs/execution_claude_transcript.jsonl"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": false
+}
