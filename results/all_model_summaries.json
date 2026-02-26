@@ -1,0 +1,32 @@
+{
+  "gpt4o": {
+    "model": "GPT-4o",
+    "n_total": 200,
+    "n_success": 200,
+    "n_fail": 0,
+    "parse_rate": 1.0,
+    "accuracy": 0.98,
+    "macro_f1": 0.9799919967987194,
+    "brier_score": 0.019575000000000002,
+    "mean_confidence_fact": 0.9810000000000001,
+    "std_confidence_fact": 0.03590264614203248,
+    "mean_confidence_opinion": 0.10100000000000002,
+    "std_confidence_opinion": 0.16522409025320733,
+    "timestamp": "2026-02-26T04:39:06.725249"
+  },
+  "gpt4o_mini": {
+    "model": "GPT-4o-mini",
+    "n_total": 200,
+    "n_success": 200,
+    "n_fail": 0,
+    "parse_rate": 1.0,
+    "accuracy": 0.99,
+    "macro_f1": 0.9899989998999901,
+    "brier_score": 0.03808750000000001,
+    "mean_confidence_fact": 0.9745,
+    "std_confidence_fact": 0.05408095783175444,
+    "mean_confidence_opinion": 0.146,
+    "std_confidence_opinion": 0.22645970944077445,
+    "timestamp": "2026-02-26T04:44:32.031959"
+  }
+}

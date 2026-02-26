@@ -1,0 +1,402 @@
+[
+  {
+    "label": "Both",
+    "confidence": 0.98,
+    "rationale": "The statement contains a factual claim ('The Titanic sank in 1912') and an evaluative component ('its story continues to fascinate people worldwide'), which is a subjective judgment about people's interest.",
+    "text": "The Titanic sank in 1912, and its story continues to fascinate people worldwide.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement contains a factual claim ('The Titanic sank in 1912') and an evaluative component ('its story continues to fascinate people worldwide'), which is a subjective judgment about people's interest.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a hypothetical question and does not assert a factual claim or express an opinion.",
+    "text": "What if the stars were made of silver?",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a hypothetical question and does not assert a factual claim or express an opinion.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "This statement is a command or instruction rather than a factual claim or an expression of opinion. It does not assert a truth about the world or express a value judgment.",
+    "text": "Request backup if the marshmallow army approaches.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"This statement is a command or instruction rather than a factual claim or an expression of opinion. It does not assert a truth about the world or express a value judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a request or command, not a truth-evaluable proposition or a value judgment. It does not assert a fact or express an opinion.",
+    "text": "Please remember to bring your identification with you.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a request or command, not a truth-evaluable proposition or a value judgment. It does not assert a fact or express an opinion.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.9,
+    "rationale": "The statement contains a factual component ('Sunflowers' is vibrant) that can be discussed in terms of color use, and an opinion ('it is the most cheerful painting'), which is a subjective evaluation.",
+    "text": "Vincent van Gogh's \"Sunflowers\" is vibrant, and it is the most cheerful painting.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement contains a factual component ('Sunflowers' is vibrant) that can be discussed in terms of color use, and an opinion ('it is the most cheerful painting'), which is a subjective evaluation.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a suggestion or command, not a factual claim or an expression of opinion or value judgment.",
+    "text": "Let's write a story about a magical forest.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a suggestion or command, not a factual claim or an expression of opinion or value judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "The statement is a challenge or invitation rather than a truth-evaluable claim or a value judgment. It does not assert a fact or express an opinion.",
+    "text": "I challenge you to a game of wits.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement is a challenge or invitation rather than a truth-evaluable claim or a value judgment. It does not assert a fact or express an opinion.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a command or instruction, not a truth-evaluable proposition or a value judgment.",
+    "text": "Turn off the stove after cooking.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a command or instruction, not a truth-evaluable proposition or a value judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "The statement is an expression of curiosity or a question, not a factual claim or an opinion. It does not assert anything that can be evaluated as true or false, nor does it express a value judgment.",
+    "text": "I wonder what dreams mean to our minds.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement is an expression of curiosity or a question, not a factual claim or an opinion. It does not assert anything that can be evaluated as true or false, nor does it express a value judgment.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.9,
+    "rationale": "The statement contains factual information about the stomach producing hydrochloric acid and its role in digestion, but also includes an evaluative component by stating that it can 'cause discomfort if not balanced properly,' which involves a subjective assessment.",
+    "text": "The human stomach produces hydrochloric acid, which helps digest food but can also cause discomfort if not balanced properly.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement contains factual information about the stomach producing hydrochloric acid and its role in digestion, but also includes an evaluative component by stating that it can 'cause discomfort if not balanced properly,' which involves a subjective assessment.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.98,
+    "rationale": "The statement contains a factual claim about the completion date of the Colosseum and an evaluative opinion describing it as the 'most magnificent' ancient amphitheater.",
+    "text": "The Colosseum in Rome was completed in 80 AD, and it is the most magnificent ancient amphitheater.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement contains a factual claim about the completion date of the Colosseum and an evaluative opinion describing it as the 'most magnificent' ancient amphitheater.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains factual information about the skin being the largest organ and its functions, but the phrase 'crucial role' introduces a subjective evaluation of importance.",
+    "text": "The human skin is the largest organ, which plays a crucial role in protecting the body and regulating temperature.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains factual information about the skin being the largest organ and its functions, but the phrase 'crucial role' introduces a subjective evaluation of importance.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a request or command, not a factual claim or an expression of opinion. It does not assert anything that can be evaluated as true or false, nor does it express a value judgment.",
+    "text": "Please remember to feed the cats this evening.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a request or command, not a factual claim or an expression of opinion. It does not assert anything that can be evaluated as true or false, nor does it express a value judgment.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about the duration of the Cold War and an evaluative claim about its ongoing impact on geopolitics, combining both fact and opinion.",
+    "text": "The Cold War lasted nearly half a century, and its impact still shapes geopolitics.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about the duration of the Cold War and an evaluative claim about its ongoing impact on geopolitics, combining both fact and opinion.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.98,
+    "rationale": "The statement presents a factual claim about sea level rise since 1900 and adds an evaluative judgment by calling it a 'significant environmental concern.'",
+    "text": "Global sea levels have risen by about 8 inches since 1900, which is a significant environmental concern.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement presents a factual claim about sea level rise since 1900 and adds an evaluative judgment by calling it a 'significant environmental concern.'\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.98,
+    "rationale": "The statement contains a factual claim about Olympus Mons being the largest volcano in the solar system and an evaluative opinion by describing it as 'awe-inspiring.'",
+    "text": "The largest volcano in the solar system is Olympus Mons on Mars, an awe-inspiring geological feature.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement contains a factual claim about Olympus Mons being the largest volcano in the solar system and an evaluative opinion by describing it as 'awe-inspiring.'\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "The statement is a hypothetical scenario and does not assert a factual claim or express an opinion. It is a speculative prompt rather than a truth-evaluable or evaluative statement.",
+    "text": "Suppose memories could be stored in jars.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement is a hypothetical scenario and does not assert a factual claim or express an opinion. It is a speculative prompt rather than a truth-evaluable or evaluative statement.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "The statement is a hypothetical and imaginative question that does not assert a factual claim or express an opinion. It is not truth-evaluable nor a value judgment.",
+    "text": "If numbers danced, what rhythm would they choose?",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement is a hypothetical and imaginative question that does not assert a factual claim or express an opinion. It is not truth-evaluable nor a value judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "This statement is a command or instruction rather than a truth-evaluable proposition or a value judgment. It does not assert a fact or express an opinion.",
+    "text": "Cut the ribbon precisely at the twelfth notch.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"This statement is a command or instruction rather than a truth-evaluable proposition or a value judgment. It does not assert a fact or express an opinion.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement presents a factual claim about the amount of deforestation and an evaluative judgment by calling it an 'environmental catastrophe.'",
+    "text": "Deforestation destroys 18.5 million acres annually, representing an environmental catastrophe.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement presents a factual claim about the amount of deforestation and an evaluative judgment by calling it an 'environmental catastrophe.'\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about the Big Bang theory explaining the universe's origin and an evaluative opinion by calling it the 'most profound scientific concept.'",
+    "text": "The Big Bang theory explains the universe's origin, representing the most profound scientific concept.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about the Big Bang theory explaining the universe's origin and an evaluative opinion by calling it the 'most profound scientific concept.'\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim ('Broccoli is packed with nutrients') and an evaluative opinion ('making it the best vegetable for a balanced diet').",
+    "text": "Broccoli is packed with nutrients, making it the best vegetable for a balanced diet.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim ('Broccoli is packed with nutrients') and an evaluative opinion ('making it the best vegetable for a balanced diet').\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.9,
+    "rationale": "The statement contains a factual component about the Victorian era producing literature and an evaluative opinion that it was the 'most influential period' and produced 'the greatest literature.'",
+    "text": "The Victorian era produced some of the greatest literature, making it the most influential period in literary history.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement contains a factual component about the Victorian era producing literature and an evaluative opinion that it was the 'most influential period' and produced 'the greatest literature.'\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "The statement is a suggestion or proposal in the form of a question, not a factual claim or an expression of opinion.",
+    "text": "Why don't we meet at the library?",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement is a suggestion or proposal in the form of a question, not a factual claim or an expression of opinion.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "The statement is a question and does not assert a factual claim or express an opinion; it is a hypothetical inquiry about what the fox should do.",
+    "text": "Should the fox wear a tie to the interspecies banquet?",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement is a question and does not assert a factual claim or express an opinion; it is a hypothetical inquiry about what the fox should do.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 1.0,
+    "rationale": "The statement presents a factual claim about average television viewing time and an evaluative opinion by calling it a 'disappointing waste of time.'",
+    "text": "Television viewing averages 4 hours per day for Americans, representing a disappointing waste of time.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement presents a factual claim about average television viewing time and an evaluative opinion by calling it a 'disappointing waste of time.'\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "The statement is a question asking about a preference and does not assert a fact or express an opinion; it is neither truth-evaluable nor a value judgment.",
+    "text": "Would you prefer tea or coffee this afternoon?",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement is a question asking about a preference and does not assert a fact or express an opinion; it is neither truth-evaluable nor a value judgment.\"\n}"
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.98,
+    "rationale": "The statement expresses a subjective evaluation of the party as 'wonderful,' which reflects a personal feeling rather than a verifiable fact.",
+    "text": "What a wonderful surprise this party is!",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement expresses a subjective evaluation of the party as 'wonderful,' which reflects a personal feeling rather than a verifiable fact.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "This statement is a suggestion or command rather than a factual claim or an expression of opinion. It does not assert a truth about the world or express a value judgment.",
+    "text": "Let's sail to the edge of the map.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"This statement is a suggestion or command rather than a factual claim or an expression of opinion. It does not assert a truth about the world or express a value judgment.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about polar bears' habitat (the Arctic) and an evaluative component suggesting their habitat is 'increasingly endangered,' which involves interpretation and value judgment.",
+    "text": "Polar bears primarily live in the Arctic, and their habitat is increasingly endangered.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about polar bears' habitat (the Arctic) and an evaluative component suggesting their habitat is 'increasingly endangered,' which involves interpretation and value judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "This statement is an imperative command instructing someone to perform an action, rather than making a factual claim or expressing an opinion.",
+    "text": "Tap three times before entering the purple room.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"This statement is an imperative command instructing someone to perform an action, rather than making a factual claim or expressing an opinion.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.98,
+    "rationale": "The statement contains a factual claim about the Eiffel Tower's completion date and an opinion that it is the most iconic symbol of Paris, which is a subjective evaluation.",
+    "text": "The Eiffel Tower was completed in 1889, and it is the most iconic symbol of Paris.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement contains a factual claim about the Eiffel Tower's completion date and an opinion that it is the most iconic symbol of Paris, which is a subjective evaluation.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "The statement is a hypothetical question and does not assert a factual claim or express an opinion; it is an inquiry about a possible scenario.",
+    "text": "Would a square behave differently in a round room?",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement is a hypothetical question and does not assert a factual claim or express an opinion; it is an inquiry about a possible scenario.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about the number of people connected to the Internet and an evaluative judgment about the opportunities and problems it creates.",
+    "text": "The Internet connects over 5 billion people worldwide, creating both wonderful opportunities and serious problems.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about the number of people connected to the Internet and an evaluative judgment about the opportunities and problems it creates.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim ('Kangaroos can't walk backwards') and an evaluative component ('adds a quirky detail to their biology'), combining both fact and opinion.",
+    "text": "Kangaroos can't walk backwards, which adds a quirky detail to their biology.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim ('Kangaroos can't walk backwards') and an evaluative component ('adds a quirky detail to their biology'), combining both fact and opinion.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about the depth of the ocean's deepest point and an evaluative description of it as 'Earth's most mysterious and unexplored frontier,' which is subjective.",
+    "text": "The deepest point in the ocean is 36,200 feet, showcasing Earth's most mysterious and unexplored frontier.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about the depth of the ocean's deepest point and an evaluative description of it as 'Earth's most mysterious and unexplored frontier,' which is subjective.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a polite request or command, not a factual claim or an expression of opinion.",
+    "text": "Can you close the window, please?",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a polite request or command, not a factual claim or an expression of opinion.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a command, not a truth-evaluable proposition or a value judgment. It does not express a fact or an opinion.",
+    "text": "Answer the question.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a command, not a truth-evaluable proposition or a value judgment. It does not express a fact or an opinion.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about the freezing point of water and an evaluative component suggesting its usefulness as a benchmark, which is a subjective judgment.",
+    "text": "Water freezes at 0 degrees Celsius, making it a useful benchmark for many scientific experiments.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about the freezing point of water and an evaluative component suggesting its usefulness as a benchmark, which is a subjective judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "The statement expresses curiosity and is phrased as a wonderment rather than a factual claim or an opinion. It does not assert a truth or value judgment.",
+    "text": "I wonder what the ocean's depths hide.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement expresses curiosity and is phrased as a wonderment rather than a factual claim or an opinion. It does not assert a truth or value judgment.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about whole grains providing essential fiber and an evaluative opinion that they are the best choice for a healthy diet.",
+    "text": "Eating whole grains provides essential fiber, making them the best choice for a healthy diet.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about whole grains providing essential fiber and an evaluative opinion that they are the best choice for a healthy diet.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about polar bears' habitat and an evaluative claim about the threat posed by climate change, which involves interpretation and value judgment.",
+    "text": "Polar bears live primarily in the Arctic, and their survival is increasingly threatened by climate change.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about polar bears' habitat and an evaluative claim about the threat posed by climate change, which involves interpretation and value judgment.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.85,
+    "rationale": "The statement contains a factual component ('Volleyball, a team sport') and an evaluative component ('is surprisingly fast-paced'), which is a subjective judgment.",
+    "text": "Volleyball, a team sport, is surprisingly fast-paced.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.85,\n  \"rationale\": \"The statement contains a factual component ('Volleyball, a team sport') and an evaluative component ('is surprisingly fast-paced'), which is a subjective judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "The statement is a command or instruction rather than a factual claim or an expression of opinion, so it does not fit into the categories of Fact, Opinion, or Both.",
+    "text": "Replace all vowels with clouds for today's message.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"The statement is a command or instruction rather than a factual claim or an expression of opinion, so it does not fit into the categories of Fact, Opinion, or Both.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim ('The Great Barrier Reef is the largest coral system') and an evaluative opinion ('making it the most spectacular underwater sight').",
+    "text": "The Great Barrier Reef is the largest coral system, making it the most spectacular underwater sight.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim ('The Great Barrier Reef is the largest coral system') and an evaluative opinion ('making it the most spectacular underwater sight').\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement presents a factual claim about the number of spider species in Australia and adds subjective evaluations by describing Australia as an 'arachnid paradise\u2014or nightmare.'",
+    "text": "Australia is home to more than 1,500 species of spiders, which can make it feel like an arachnid paradise\u2014or nightmare.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement presents a factual claim about the number of spider species in Australia and adds subjective evaluations by describing Australia as an 'arachnid paradise\u2014or nightmare.'\"\n}"
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.7,
+    "rationale": "The statement reports on what 'he' dreams about, which is a truth-evaluable claim about his mental state, though it is metaphorical and unverifiable without further context.",
+    "text": "He dreams of building ladders that reach the stars.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.7,\n  \"rationale\": \"The statement reports on what 'he' dreams about, which is a truth-evaluable claim about his mental state, though it is metaphorical and unverifiable without further context.\"\n}"
+  },
+  {
+    "label": "Both",
+    "confidence": 0.95,
+    "rationale": "The statement contains a factual claim about online shopping being convenient for many (which can be verified) and an opinion about the 'tactile joy' of in-store browsing (a subjective evaluation).",
+    "text": "Online shopping, convenient for many, lacks the tactile joy of in-store Browse.",
+    "true_label": "Both",
+    "raw_response": "{\n  \"label\": \"Both\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement contains a factual claim about online shopping being convenient for many (which can be verified) and an opinion about the 'tactile joy' of in-store browsing (a subjective evaluation).\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 1.0,
+    "rationale": "This statement is a command or instruction, not a factual claim or an expression of opinion or value judgment.",
+    "text": "Please be seated and wait quietly.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 1.0,\n  \"rationale\": \"This statement is a command or instruction, not a factual claim or an expression of opinion or value judgment.\"\n}"
+  },
+  {
+    "label": "Neither",
+    "confidence": 0.98,
+    "rationale": "This statement is a hypothetical scenario and does not assert a factual claim or express a value judgment or preference; it simply describes what the speaker would do in an imagined situation.",
+    "text": "If I were a painter, I would paint landscapes.",
+    "true_label": "Neither",
+    "raw_response": "{\n  \"label\": \"Neither\",\n  \"confidence\": 0.98,\n  \"rationale\": \"This statement is a hypothetical scenario and does not assert a factual claim or express a value judgment or preference; it simply describes what the speaker would do in an imagined situation.\"\n}"
+  }
+]

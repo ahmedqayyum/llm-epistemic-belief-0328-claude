@@ -1,0 +1,1802 @@
+[
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geometric principles and is universally accepted in Euclidean geometry, making it a truth-evaluable proposition.",
+    "text": "The sum of angles in a triangle is 180 degrees.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geometric principles and is universally accepted in Euclidean geometry, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through astronomical measurements and is a factual claim about the distance between the sun and Earth.",
+    "text": "The sun is approximately 93 million miles from Earth.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through astronomical measurements and is a factual claim about the distance between the sun and Earth.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.7,
+    "rationale": "While the Grand Canyon is one of the largest canyons, the title of 'largest canyon' can be subjective and depends on the criteria used (e.g., depth, length, or volume). Therefore, this statement cannot be definitively proven true or false.",
+    "text": "The largest canyon in the world is the Grand Canyon in the United States.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.7,\n  \"rationale\": \"While the Grand Canyon is one of the largest canyons, the title of 'largest canyon' can be subjective and depends on the criteria used (e.g., depth, length, or volume). Therefore, this statement cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of personal satisfaction, which cannot be definitively proven true or false.",
+    "text": "Owning a house is more satisfying than renting.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of personal satisfaction, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the power of silence compared to words, which cannot be definitively proven true or false.",
+    "text": "Silence is more powerful than words.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the power of silence compared to words, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference about punctuality, which cannot be definitively proven true or false.",
+    "text": "It's better to arrive early than on time.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference about punctuality, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.7,
+    "rationale": "While the statement reflects a widely held view about the impact of the printing press, it is ultimately a subjective evaluation of its significance rather than a verifiable fact.",
+    "text": "The invention of the printing press revolutionized communication.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.7,\n  \"rationale\": \"While the statement reflects a widely held view about the impact of the printing press, it is ultimately a subjective evaluation of its significance rather than a verifiable fact.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a value judgment about voting, which is subjective and cannot be definitively proven true or false.",
+    "text": "Everyone should vote.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a value judgment about voting, which is subjective and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of personal preference regarding reading books versus watching movies, which cannot be definitively proven true or false.",
+    "text": "Reading books is more rewarding than watching movies.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of personal preference regarding reading books versus watching movies, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical and environmental evidence, confirming that the Amazon Rainforest is indeed the largest rainforest in the world.",
+    "text": "The largest rainforest in the world is the Amazon Rainforest.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical and environmental evidence, confirming that the Amazon Rainforest is indeed the largest rainforest in the world.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through geographical evidence, as Pretoria is one of the capitals of South Africa, making it a truth-evaluable proposition.",
+    "text": "The capital of South Africa is Pretoria.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through geographical evidence, as Pretoria is one of the capitals of South Africa, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference for summer over other seasons, which cannot be proven true or false.",
+    "text": "Summer is the best season of the year.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference for summer over other seasons, which cannot be proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of summer temperatures, which can vary based on personal preference and experience, making it a non-epistemic belief.",
+    "text": "Summer is too hot.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of summer temperatures, which can vary based on personal preference and experience, making it a non-epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through biological observation and comparison of neck lengths among land animals, making it a truth-evaluable proposition.",
+    "text": "A giraffe has the longest neck of any land animal.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through biological observation and comparison of neck lengths among land animals, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.9,
+    "rationale": "The statement expresses a value judgment about the amount of sleep people should get, which is subjective and cannot be definitively proven true or false.",
+    "text": "People should get at least eight hours of sleep every night.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement expresses a value judgment about the amount of sleep people should get, which is subjective and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of sarcasm as a form of wit, which cannot be definitively proven true or false.",
+    "text": "Sarcasm is the highest form of wit.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of sarcasm as a form of wit, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is a truth-evaluable proposition about the classification of Australia.",
+    "text": "Australia is both a country and a continent.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is a truth-evaluable proposition about the classification of Australia.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation about the effects of different genres of entertainment on mood, which cannot be definitively proven true or false.",
+    "text": "Watching comedies improves mood more than watching dramas.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation about the effects of different genres of entertainment on mood, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is a truth-evaluable proposition about the world.",
+    "text": "The Sahara Desert is the largest hot desert in the world.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is a truth-evaluable proposition about the world.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through historical evidence and documentation, confirming that Neil Armstrong was indeed the first man to walk on the moon.",
+    "text": "The first man on the moon was Neil Armstrong.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through historical evidence and documentation, confirming that Neil Armstrong was indeed the first man to walk on the moon.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a value judgment about fast driving being irresponsible and dangerous, which is subjective and cannot be definitively proven true or false.",
+    "text": "Fast driving is irresponsible and dangerous.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a value judgment about fast driving being irresponsible and dangerous, which is subjective and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific measurement and observation of the Earth's atmosphere, making it a truth-evaluable proposition.",
+    "text": "The Earth's atmosphere is approximately 78 percent nitrogen.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific measurement and observation of the Earth's atmosphere, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation about the health effects of skipping breakfast, which can vary based on individual circumstances and preferences, making it a non-epistemic belief.",
+    "text": "Skipping breakfast is unhealthy.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation about the health effects of skipping breakfast, which can vary based on individual circumstances and preferences, making it a non-epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific research and anatomical studies, making it a truth-evaluable proposition about the human body.",
+    "text": "The human tongue has about 10,000 taste buds.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific research and anatomical studies, making it a truth-evaluable proposition about the human body.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical and navigational evidence, as magnetic north and true north are defined by different criteria and can be measured.",
+    "text": "Magnetic north and true north are not the same location.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical and navigational evidence, as magnetic north and true north are defined by different criteria and can be measured.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through historical evidence and documentation regarding the construction of the Great Wall of China, making it a truth-evaluable proposition.",
+    "text": "The Great Wall of China was built over several centuries.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through historical evidence and documentation regarding the construction of the Great Wall of China, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Sharks are fish' is a verifiable fact based on biological classification, as sharks belong to the class Chondrichthyes, which are indeed categorized as fish.",
+    "text": "Sharks are fish.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Sharks are fish' is a verifiable fact based on biological classification, as sharks belong to the class Chondrichthyes, which are indeed categorized as fish.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific observation and reasoning, as the Earth's rotation is a well-established phenomenon that directly causes the cycle of day and night.",
+    "text": "The Earth's rotation causes day and night.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific observation and reasoning, as the Earth's rotation is a well-established phenomenon that directly causes the cycle of day and night.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation about the motivational effects of self-help books, which can vary from person to person and cannot be definitively proven true or false.",
+    "text": "Reading self-help books can be motivating.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation about the motivational effects of self-help books, which can vary from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective preference for homemade salad dressing over bottled versions, which cannot be definitively proven true or false.",
+    "text": "Homemade salad dressing is superior to bottled versions.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective preference for homemade salad dressing over bottled versions, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through historical evidence regarding the invention of the television, making it a truth-evaluable proposition.",
+    "text": "The first television was invented in the early 20th century.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through historical evidence regarding the invention of the television, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through astronomical observations and measurements, making it a truth-evaluable proposition about the world.",
+    "text": "The Moon orbits the Earth approximately every 27.3 days.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through astronomical observations and measurements, making it a truth-evaluable proposition about the world.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific measurement and observation of human physiology, making it a truth-evaluable proposition.",
+    "text": "The human body has an average heart rate of about 72 beats per minute.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific measurement and observation of human physiology, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and observation, as the Mississippi River's flow direction is a measurable and observable phenomenon.",
+    "text": "The Mississippi River flows from north to south through the United States.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and observation, as the Mississippi River's flow direction is a measurable and observable phenomenon.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the experience of visiting a historical site, which can vary from person to person and cannot be definitively proven true or false.",
+    "text": "A visit to a historical site is always fascinating.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the experience of visiting a historical site, which can vary from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the experience of cooking at home versus eating out, which cannot be definitively proven true or false.",
+    "text": "Cooking at home is more fulfilling than eating out.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the experience of cooking at home versus eating out, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the smell of fresh pine, which cannot be definitively proven true or false as it varies from person to person.",
+    "text": "The smell of fresh pine is invigorating.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the smell of fresh pine, which cannot be definitively proven true or false as it varies from person to person.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation about the effects of laughter on relationships, which cannot be definitively proven true or false.",
+    "text": "Laughter builds connection.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation about the effects of laughter on relationships, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective value judgment about pet ownership that cannot be definitively proven true or false.",
+    "text": "Everyone should have a pet.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective value judgment about pet ownership that cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the Great Lakes.",
+    "text": "The Great Lakes are located between the United States and Canada.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the Great Lakes.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'There are 24 hours in a day' is a verifiable fact based on the standard measurement of time, which can be confirmed through observation and scientific reasoning.",
+    "text": "There are 24 hours in a day.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'There are 24 hours in a day' is a verifiable fact based on the standard measurement of time, which can be confirmed through observation and scientific reasoning.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference regarding food combinations, which cannot be definitively proven true or false.",
+    "text": "Pineapple doesn't belong on pizza.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference regarding food combinations, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the North Pole.",
+    "text": "The North Pole is located in the Arctic Ocean.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the North Pole.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is objectively true, as Mount Kilimanjaro is indeed the highest peak in Africa.",
+    "text": "Mount Kilimanjaro is the highest peak in Africa.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is objectively true, as Mount Kilimanjaro is indeed the highest peak in Africa.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the importance of using public libraries, which cannot be definitively proven true or false.",
+    "text": "Using public libraries is important.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the importance of using public libraries, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation about the training of dogs compared to cats, which can vary based on individual experiences and preferences, making it a non-epistemic belief.",
+    "text": "Dogs are easier to train than cats.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation about the training of dogs compared to cats, which can vary based on individual experiences and preferences, making it a non-epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is objectively true, as the Ganges River is indeed located in India.",
+    "text": "The Ganges River is located in India.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is objectively true, as the Ganges River is indeed located in India.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through observation and scientific evidence about penguins and their habitat, making it a truth-evaluable proposition.",
+    "text": "Penguins are flightless birds that live primarily in the Southern Hemisphere.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through observation and scientific evidence about penguins and their habitat, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about decision-making, which cannot be definitively proven true or false.",
+    "text": "The best decisions are made with both heart and mind.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about decision-making, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through observation and evidence, as polar bears are known to inhabit the Arctic region.",
+    "text": "Polar bears live primarily in the Arctic region.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through observation and evidence, as polar bears are known to inhabit the Arctic region.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.3,
+    "rationale": "The statement expresses a subjective evaluation about the effects of gaming on problem-solving skills, which can vary among individuals and cannot be definitively proven true or false.",
+    "text": "Gaming can improve problem-solving skills.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.3,\n  \"rationale\": \"The statement expresses a subjective evaluation about the effects of gaming on problem-solving skills, which can vary among individuals and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of an experience, which cannot be definitively proven true or false. It reflects personal preference rather than an objective fact.",
+    "text": "A walk through a botanical garden is a delightful experience.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of an experience, which cannot be definitively proven true or false. It reflects personal preference rather than an objective fact.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific measurement and is based on physical principles, making it a truth-evaluable proposition.",
+    "text": "The speed of sound in air is approximately 343 meters per second at sea level.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific measurement and is based on physical principles, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about selfies, which cannot be definitively proven true or false. It reflects a personal judgment rather than an objective fact.",
+    "text": "Most selfies are pointless.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about selfies, which cannot be definitively proven true or false. It reflects a personal judgment rather than an objective fact.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of flavor, which varies from person to person and cannot be definitively proven true or false.",
+    "text": "Spicy food is more flavorful than bland food.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of flavor, which varies from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific observation and analysis, as air is composed of approximately 78% nitrogen and 21% oxygen, making it a truth-evaluable proposition.",
+    "text": "Air contains oxygen and nitrogen.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific observation and analysis, as air is composed of approximately 78% nitrogen and 21% oxygen, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation about dietary preferences and health, which cannot be definitively proven true or false as it depends on individual perspectives and contexts.",
+    "text": "Vegetarian diets are healthier than meat-based ones.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation about dietary preferences and health, which cannot be definitively proven true or false as it depends on individual perspectives and contexts.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific experimentation and observation, as the boiling point of salt water is indeed higher than that of fresh water due to the presence of dissolved salts.",
+    "text": "Salt water has a higher boiling point than fresh water.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific experimentation and observation, as the boiling point of salt water is indeed higher than that of fresh water due to the presence of dissolved salts.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the relationship between money and happiness, which cannot be definitively proven true or false.",
+    "text": "Money can't buy happiness.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the relationship between money and happiness, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through evidence and observation, as it is a factual assertion about the currency used in Mexico.",
+    "text": "The currency of Mexico is the Peso.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through evidence and observation, as it is a factual assertion about the currency used in Mexico.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.9,
+    "rationale": "The statement expresses a subjective evaluation of convenience, which varies from person to person and cannot be definitively proven true or false.",
+    "text": "Listening to audiobooks is more convenient than reading physical books.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement expresses a subjective evaluation of convenience, which varies from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through anatomical studies and is a factual description of the structure of the human ear.",
+    "text": "The human ear has three main parts: outer, middle, and inner ear.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through anatomical studies and is a factual description of the structure of the human ear.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through historical records and is a truth-evaluable proposition about a specific event in history.",
+    "text": "The first internet message was sent in 1969.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through historical records and is a truth-evaluable proposition about a specific event in history.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement provides a measurable range for the average body mass index (BMI) of the human body, which can be verified through scientific research and data.",
+    "text": "The human body has an average body mass index (BMI) of about 18.5-24.9.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement provides a measurable range for the average body mass index (BMI) of the human body, which can be verified through scientific research and data.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through paleontological evidence and scientific research, making it a truth-evaluable proposition about the history of sharks.",
+    "text": "Sharks have been on Earth for more than 400 million years.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through paleontological evidence and scientific research, making it a truth-evaluable proposition about the history of sharks.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of comfort, which varies from person to person and cannot be definitively proven true or false.",
+    "text": "Homemade soup is more comforting than canned soup.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of comfort, which varies from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through scientific research and data regarding the contribution of the Amazon rainforest to global oxygen production, making it a truth-evaluable proposition.",
+    "text": "The Amazon rainforest produces approximately 20 percent of the world's oxygen.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through scientific research and data regarding the contribution of the Amazon rainforest to global oxygen production, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of movie genres, which cannot be definitively proven true or false as enjoyment is based on personal preference.",
+    "text": "Comedy movies are more enjoyable than horror movies.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of movie genres, which cannot be definitively proven true or false as enjoyment is based on personal preference.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through astronomical observation and is a factual description of the rotational direction of Venus.",
+    "text": "The planet Venus rotates clockwise.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through astronomical observation and is a factual description of the rotational direction of Venus.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of city life compared to country life, which cannot be definitively proven true or false.",
+    "text": "City life is more exciting than country life.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of city life compared to country life, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Lemons are a type of citrus fruit' can be verified through botanical classification and is objectively true.",
+    "text": "Lemons are a type of citrus fruit.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Lemons are a type of citrus fruit' can be verified through botanical classification and is objectively true.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of air quality, which cannot be definitively proven true or false. It reflects personal preference rather than an objective fact.",
+    "text": "Crisp air is more invigorating than humid air.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of air quality, which cannot be definitively proven true or false. It reflects personal preference rather than an objective fact.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a value judgment about pet adoption versus purchasing, which is subjective and cannot be definitively proven true or false.",
+    "text": "People should adopt pets instead of buying them.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a value judgment about pet adoption versus purchasing, which is subjective and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through historical evidence and documentation, making it a truth-evaluable proposition about a specific event in history.",
+    "text": "The first successful airplane flight was made by the Wright brothers.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through historical evidence and documentation, making it a truth-evaluable proposition about a specific event in history.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of communication methods, which cannot be definitively proven true or false as it depends on individual preferences and contexts.",
+    "text": "Texting is more convenient than calling.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of communication methods, which cannot be definitively proven true or false as it depends on individual preferences and contexts.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of a day at a theme park as 'thrilling and fun', which varies based on personal preferences and experiences, making it a non-epistemic belief.",
+    "text": "A day spent at a theme park is thrilling and fun.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of a day at a theme park as 'thrilling and fun', which varies based on personal preferences and experiences, making it a non-epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific measurement and research regarding the composition of the human body, making it a truth-evaluable proposition.",
+    "text": "The human adult body is about 60% water.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific measurement and research regarding the composition of the human body, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation about people's viewing habits and preferences, which cannot be definitively proven true or false.",
+    "text": "People should watch less TV and read more.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation about people's viewing habits and preferences, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the effectiveness of two activities for stress relief, which cannot be definitively proven true or false.",
+    "text": "Taking a walk is a better stress reliever than watching TV.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the effectiveness of two activities for stress relief, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a value judgment about what is considered appropriate for children, which cannot be definitively proven true or false.",
+    "text": "Children should have limited screen time.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a value judgment about what is considered appropriate for children, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical measurements and is a universally accepted truth about the world's highest mountain.",
+    "text": "Mount Everest is the highest mountain above sea level.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical measurements and is a universally accepted truth about the world's highest mountain.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and measurements, making it a truth-evaluable proposition.",
+    "text": "The Nile River is the longest river in the world.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and measurements, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific literature and periodic tables, confirming that the chemical symbol for thorium is indeed Th.",
+    "text": "The chemical symbol for thorium is Th.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific literature and periodic tables, confirming that the chemical symbol for thorium is indeed Th.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference about storytelling mediums, which cannot be definitively proven true or false.",
+    "text": "Books are better than movies for storytelling.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference about storytelling mediums, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of the quality of toys, which cannot be definitively proven true or false.",
+    "text": "A well-made wooden toy is better than a plastic one.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of the quality of toys, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific knowledge and is a factual representation of the chemical symbol for radon, which is universally accepted and documented.",
+    "text": "The chemical symbol for radon is Rn.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific knowledge and is a factual representation of the chemical symbol for radon, which is universally accepted and documented.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the personalities of dogs and cats, which cannot be definitively proven true or false.",
+    "text": "Dogs have better personalities than cats.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the personalities of dogs and cats, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical data and is objectively true, as Vatican City is recognized as the smallest country in the world.",
+    "text": "The smallest country in the world is Vatican City.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical data and is objectively true, as Vatican City is recognized as the smallest country in the world.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.9,
+    "rationale": "The statement expresses a subjective evaluation of gardening as therapeutic, which cannot be definitively proven true or false for everyone.",
+    "text": "Gardening is a very therapeutic hobby.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement expresses a subjective evaluation of gardening as therapeutic, which cannot be definitively proven true or false for everyone.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through biological and anatomical evidence, as it is widely accepted that humans have five primary senses: sight, hearing, taste, touch, and smell.",
+    "text": "The human body has five senses.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through biological and anatomical evidence, as it is widely accepted that humans have five primary senses: sight, hearing, taste, touch, and smell.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through anatomical studies and is a widely accepted scientific fact about human biology.",
+    "text": "The human body has 206 bones.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through anatomical studies and is a widely accepted scientific fact about human biology.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of literature that cannot be definitively proven true or false, as it is based on personal preference.",
+    "text": "Classic novels are better than modern ones.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of literature that cannot be definitively proven true or false, as it is based on personal preference.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about artichokes being underrated, which cannot be definitively proven true or false.",
+    "text": "Artichokes are an underrated vegetable.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about artichokes being underrated, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific knowledge and is universally accepted as true, as the chemical symbol for oxygen is indeed O.",
+    "text": "The chemical symbol for oxygen is O.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific knowledge and is universally accepted as true, as the chemical symbol for oxygen is indeed O.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "A compass pointing north is a verifiable phenomenon based on the Earth's magnetic field, making it a truth-evaluable statement.",
+    "text": "A compass points north.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"A compass pointing north is a verifiable phenomenon based on the Earth's magnetic field, making it a truth-evaluable statement.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference for camping over staying in hotels, which cannot be definitively proven true or false.",
+    "text": "Camping is a better vacation than staying in hotels.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference for camping over staying in hotels, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference about the smell of freshly baked bread compared to perfume, which cannot be objectively proven true or false.",
+    "text": "Freshly baked bread smells better than any perfume.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference about the smell of freshly baked bread compared to perfume, which cannot be objectively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific knowledge and is a universally accepted fact in chemistry, as nitrogen is indeed represented by the symbol 'N'.",
+    "text": "The chemical symbol for nitrogen is N.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific knowledge and is a universally accepted fact in chemistry, as nitrogen is indeed represented by the symbol 'N'.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through biological and physiological evidence, as it describes a scientifically established process in human digestion.",
+    "text": "The human stomach produces acid to digest food.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through biological and physiological evidence, as it describes a scientifically established process in human digestion.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the future, which cannot be definitively proven true or false.",
+    "text": "The future is full of exciting possibilities.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the future, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific observation and evidence, as Saturn's rings are indeed composed of ice and rock.",
+    "text": "Saturn has rings made of ice and rock.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific observation and evidence, as Saturn's rings are indeed composed of ice and rock.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Berlin is the capital city of Germany' can be verified through geographical and political evidence, making it a truth-evaluable proposition.",
+    "text": "Berlin is the capital city of Germany.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Berlin is the capital city of Germany' can be verified through geographical and political evidence, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of local farmers' markets compared to grocery stores, which cannot be definitively proven true or false.",
+    "text": "Local farmers' markets are superior to grocery stores.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of local farmers' markets compared to grocery stores, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of beauty, which varies from person to person and cannot be definitively proven true or false.",
+    "text": "Handmade pottery is more beautiful than factory-made ceramics.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of beauty, which varies from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of taste, which varies from person to person and cannot be definitively proven true or false.",
+    "text": "The taste of a perfectly ripe tomato is unbeatable.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of taste, which varies from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of music genres, which cannot be definitively proven true or false.",
+    "text": "Jazz music is more sophisticated than pop music.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of music genres, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.8,
+    "rationale": "The statement can be verified by checking the height of buildings as of 2025, making it a truth-evaluable proposition. However, since it refers to a future date, there is some uncertainty about its accuracy.",
+    "text": "The tallest building in the world as of 2025 is the Burj Khalifa.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.8,\n  \"rationale\": \"The statement can be verified by checking the height of buildings as of 2025, making it a truth-evaluable proposition. However, since it refers to a future date, there is some uncertainty about its accuracy.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through biological and physiological evidence, as it describes a scientifically established function of the human stomach.",
+    "text": "The human stomach produces acid to aid digestion.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through biological and physiological evidence, as it describes a scientifically established function of the human stomach.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the creaminess of homemade versus store-bought ice cream, which cannot be definitively proven true or false.",
+    "text": "Homemade ice cream is creamier than store-bought versions.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the creaminess of homemade versus store-bought ice cream, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.9,
+    "rationale": "The statement expresses a subjective evaluation about politeness and its perception, which cannot be definitively proven true or false.",
+    "text": "Being polite is often overlooked.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement expresses a subjective evaluation about politeness and its perception, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of experiences, which cannot be definitively proven true or false.",
+    "text": "Camping under the stars is more memorable than staying in luxury hotels.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of experiences, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through anatomical studies and is a widely accepted scientific fact about human biology.",
+    "text": "The human body contains 206 bones in adulthood.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through anatomical studies and is a widely accepted scientific fact about human biology.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the therapeutic effects of walking in nature compared to indoor exercise, which cannot be definitively proven true or false.",
+    "text": "Walking in nature is more therapeutic than indoor exercise.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the therapeutic effects of walking in nature compared to indoor exercise, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.3,
+    "rationale": "The statement expresses a subjective evaluation about electric cars and their environmental impact, which can vary based on individual values and perspectives. It cannot be definitively proven true or false without context and specific criteria for 'better'.",
+    "text": "Electric cars are better for the environment.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.3,\n  \"rationale\": \"The statement expresses a subjective evaluation about electric cars and their environmental impact, which can vary based on individual values and perspectives. It cannot be definitively proven true or false without context and specific criteria for 'better'.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through evidence and observation, as koalas are indeed native to Australia.",
+    "text": "Koalas are native to Australia.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through evidence and observation, as koalas are indeed native to Australia.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the value of learning new languages, which cannot be definitively proven true or false.",
+    "text": "Learning new languages is very rewarding.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the value of learning new languages, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific literature and periodic tables, confirming that the chemical symbol for francium is indeed Fr.",
+    "text": "The chemical symbol for francium is Fr.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific literature and periodic tables, confirming that the chemical symbol for francium is indeed Fr.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific measurement and is based on established physical principles, making it a truth-evaluable proposition.",
+    "text": "The speed of sound in dry air at 20 degrees Celsius is 343 meters per second.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific measurement and is based on established physical principles, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of the ocean and outer space, which cannot be definitively proven true or false.",
+    "text": "The ocean is more fascinating than outer space.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of the ocean and outer space, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement describes a biological process that can be observed and verified through scientific study, making it a truth-evaluable proposition.",
+    "text": "Metamorphosis is the process by which caterpillars become butterflies.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement describes a biological process that can be observed and verified through scientific study, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Cats have retractable claws' can be verified through biological observation and is a factual characteristic of cats.",
+    "text": "Cats have retractable claws.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Cats have retractable claws' can be verified through biological observation and is a factual characteristic of cats.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of color and its calming effects, which cannot be definitively proven true or false.",
+    "text": "Green is the most calming color.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of color and its calming effects, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the experience of visiting an arboretum, which can vary from person to person and cannot be definitively proven true or false.",
+    "text": "A visit to an arboretum is always inspiring.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the experience of visiting an arboretum, which can vary from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference about pizza crust, which cannot be definitively proven true or false.",
+    "text": "Pizza tastes best when it has a thin crust.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference about pizza crust, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the Dead Sea.",
+    "text": "The Dead Sea is located between Israel and Jordan.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the Dead Sea.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Solar energy comes from the Sun' is a verifiable proposition based on scientific understanding of solar energy and its source, making it a truth-evaluable statement.",
+    "text": "Solar energy comes from the Sun.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Solar energy comes from the Sun' is a verifiable proposition based on scientific understanding of solar energy and its source, making it a truth-evaluable statement.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of the night sky compared to the daytime sky, which cannot be definitively proven true or false.",
+    "text": "The night sky is more inspiring than the daytime sky.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of the night sky compared to the daytime sky, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of a day at an amusement park, which can vary from person to person and cannot be definitively proven true or false.",
+    "text": "A day spent at an amusement park is exciting and fun.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of a day at an amusement park, which can vary from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through astronomical observation and is supported by scientific evidence, making it a truth-evaluable proposition.",
+    "text": "The planet Jupiter is the largest in the solar system.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through astronomical observation and is supported by scientific evidence, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Bamboo is a type of grass' can be verified through botanical classification and is a factual assertion about the nature of bamboo.",
+    "text": "Bamboo is a type of grass.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Bamboo is a type of grass' can be verified through botanical classification and is a factual assertion about the nature of bamboo.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the importance of breakfast, which cannot be definitively proven true or false.",
+    "text": "Eating breakfast is the most important meal of the day.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the importance of breakfast, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement provides a measurable and verifiable fact about the Earth's diameter, which can be confirmed through scientific evidence and observation.",
+    "text": "The Earth's diameter is about 12,742 kilometers.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement provides a measurable and verifiable fact about the Earth's diameter, which can be confirmed through scientific evidence and observation.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through anatomical studies and is generally accepted as true for adult humans, although there can be variations due to dental health or genetics.",
+    "text": "Humans have 32 permanent teeth.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through anatomical studies and is generally accepted as true for adult humans, although there can be variations due to dental health or genetics.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of the taste of a peach, which cannot be definitively proven true or false.",
+    "text": "The taste of a ripe, juicy peach is heavenly.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of the taste of a peach, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through biological evidence and scientific observation, as it is a well-established fact that the human liver has regenerative capabilities.",
+    "text": "The human liver can regenerate lost tissue.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through biological evidence and scientific observation, as it is a well-established fact that the human liver has regenerative capabilities.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective judgment about how people should allocate their time, which cannot be definitively proven true or false.",
+    "text": "People should spend less time on their phones.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective judgment about how people should allocate their time, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through scientific studies and measurements of body fat percentages in athletes, making it a truth-evaluable proposition.",
+    "text": "The human body has an average body fat percentage of about 15% for athletes.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through scientific studies and measurements of body fat percentages in athletes, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of art museums compared to history museums, which cannot be definitively proven true or false.",
+    "text": "Art museums are more inspiring than history museums.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of art museums compared to history museums, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through astronomical observation and scientific evidence, confirming that Saturn's rings are indeed composed of ice and rock.",
+    "text": "The planet Saturn has rings made of ice and rock.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through astronomical observation and scientific evidence, confirming that Saturn's rings are indeed composed of ice and rock.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about theme park pricing, which can vary based on personal experience and perspective, making it a non-epistemic belief.",
+    "text": "Most theme parks are overpriced.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about theme park pricing, which can vary based on personal experience and perspective, making it a non-epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the beauty of sunflowers, which cannot be definitively proven true or false.",
+    "text": "The sight of a field of sunflowers is breathtaking.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the beauty of sunflowers, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a value judgment about the importance of volunteering, which is subjective and cannot be definitively proven true or false.",
+    "text": "People should volunteer regularly to help their communities.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a value judgment about the importance of volunteering, which is subjective and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a value judgment about how people ought to spend their time, which is subjective and cannot be definitively proven true or false.",
+    "text": "People should spend more time with family.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a value judgment about how people ought to spend their time, which is subjective and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through meteorological data and observations about the Sahara Desert's rainfall, making it a truth-evaluable proposition.",
+    "text": "The Sahara Desert receives less than 25 millimeters of rain annually in many areas.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through meteorological data and observations about the Sahara Desert's rainfall, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through historical evidence and documentation regarding the invention of the telephone, making it a truth-evaluable proposition.",
+    "text": "The first telephone was invented by Alexander Graham Bell.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through historical evidence and documentation regarding the invention of the telephone, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific observation and evidence, as the Atlantic Ocean is indeed composed of saltwater.",
+    "text": "The Atlantic Ocean is saltwater.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific observation and evidence, as the Atlantic Ocean is indeed composed of saltwater.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific evidence and research in neuroscience, which demonstrates the brain's role in controlling bodily functions and cognition.",
+    "text": "The human brain controls bodily functions and cognition.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific evidence and research in neuroscience, which demonstrates the brain's role in controlling bodily functions and cognition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective preference for summer as the best season for outdoor activities, which cannot be definitively proven true or false.",
+    "text": "Summer is the best season for outdoor activities.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective preference for summer as the best season for outdoor activities, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical measurements and is a universally accepted truth about the height of Mount Everest relative to sea level.",
+    "text": "Mount Everest is the tallest mountain above sea level.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical measurements and is a universally accepted truth about the height of Mount Everest relative to sea level.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through anatomical studies and is a factual claim about human biology that can be proven true or false.",
+    "text": "The human body has over 600 muscles.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through anatomical studies and is a factual claim about human biology that can be proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of rainy days, which can vary from person to person and cannot be definitively proven true or false.",
+    "text": "Rainy days are cozy.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of rainy days, which can vary from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation about the experience of driving at different times, which cannot be definitively proven true or false.",
+    "text": "Driving at night is more relaxing than during the day.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation about the experience of driving at different times, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through evidence and observation, as New York City is known to have five boroughs: Manhattan, Brooklyn, Queens, The Bronx, and Staten Island.",
+    "text": "New York City has five boroughs.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through evidence and observation, as New York City is known to have five boroughs: Manhattan, Brooklyn, Queens, The Bronx, and Staten Island.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Spiders are arachnids' is a verifiable fact that can be confirmed through biological classification and scientific evidence.",
+    "text": "Spiders are arachnids.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Spiders are arachnids' is a verifiable fact that can be confirmed through biological classification and scientific evidence.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific research and anatomical studies, making it a truth-evaluable proposition about the human body.",
+    "text": "The human tongue has approximately 10,000 taste buds.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific research and anatomical studies, making it a truth-evaluable proposition about the human body.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific observation and evidence, as it is a well-established fact in biology that the human stomach produces hydrochloric acid.",
+    "text": "The human stomach produces hydrochloric acid.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific observation and evidence, as it is a well-established fact in biology that the human stomach produces hydrochloric acid.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference for chocolate ice cream over vanilla, which cannot be definitively proven true or false.",
+    "text": "Chocolate ice cream tastes better than vanilla.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference for chocolate ice cream over vanilla, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.3,
+    "rationale": "The statement expresses a subjective evaluation about the relationship between lighting and mood, which can vary from person to person and cannot be definitively proven true or false.",
+    "text": "Bright lighting improves mood.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.3,\n  \"rationale\": \"The statement expresses a subjective evaluation about the relationship between lighting and mood, which can vary from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through anatomical evidence, as the stapes is indeed the smallest bone in the human body located in the ear.",
+    "text": "The human body's smallest bone is in the ear.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through anatomical evidence, as the stapes is indeed the smallest bone in the human body located in the ear.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through evidence and observation, as the yen is indeed the official currency of Japan.",
+    "text": "The currency of Japan is the yen.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through evidence and observation, as the yen is indeed the official currency of Japan.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the impact of a positive outlook on life, which cannot be definitively proven true or false.",
+    "text": "Having a positive outlook makes life better.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the impact of a positive outlook on life, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation of design aesthetics, which cannot be definitively proven true or false.",
+    "text": "Simple designs are often the most elegant.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation of design aesthetics, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation about reading poetry, which cannot be definitively proven true or false.",
+    "text": "We should all read more poetry.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation about reading poetry, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the experience of taking a hot bath, which cannot be definitively proven true or false.",
+    "text": "Taking a hot bath is incredibly relaxing.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the experience of taking a hot bath, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific research and observation regarding the capabilities of the human eye in color perception.",
+    "text": "The human eye can distinguish about 10 million different colors.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific research and observation regarding the capabilities of the human eye in color perception.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific knowledge and is a universally accepted truth in chemistry, making it an epistemic belief.",
+    "text": "The chemical symbol for neon is Ne.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific knowledge and is a universally accepted truth in chemistry, making it an epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.2,
+    "rationale": "The statement expresses a subjective evaluation about the value of fiction, which cannot be definitively proven true or false.",
+    "text": "Fiction teaches important life lessons.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.2,\n  \"rationale\": \"The statement expresses a subjective evaluation about the value of fiction, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement describes a scientific principle that can be verified through observation and experimentation, making it a truth-evaluable proposition.",
+    "text": "Conduction is the transfer of heat through direct contact.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement describes a scientific principle that can be verified through observation and experimentation, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about colors and their emotional impact, which cannot be definitively proven true or false.",
+    "text": "Bright colors are more cheerful than muted ones.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about colors and their emotional impact, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement provides a verifiable fact about the chemical symbol for protactinium, which can be confirmed through scientific resources.",
+    "text": "The chemical symbol for protactinium is Pa.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement provides a verifiable fact about the chemical symbol for protactinium, which can be confirmed through scientific resources.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through astronomical observations and calculations, making it a truth-evaluable proposition about the duration of a year on Earth.",
+    "text": "A year on Earth is approximately 365.25 days long.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through astronomical observations and calculations, making it a truth-evaluable proposition about the duration of a year on Earth.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified as true or false through factual evidence, as Jakarta is indeed the capital of Indonesia.",
+    "text": "The capital of Indonesia is Jakarta.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified as true or false through factual evidence, as Jakarta is indeed the capital of Indonesia.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific research and observation regarding the capabilities of the human eye in color perception.",
+    "text": "The human eye can distinguish about 10 million colors.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific research and observation regarding the capabilities of the human eye in color perception.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through biological classification and anatomical evidence, making it a truth-evaluable proposition.",
+    "text": "Sharks are fish that have skeletons made of cartilage rather than bone.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through biological classification and anatomical evidence, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the energizing effects of morning versus evening walks, which cannot be definitively proven true or false.",
+    "text": "Morning walks are more energizing than evening walks.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the energizing effects of morning versus evening walks, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the taste of a mango, which varies from person to person and cannot be definitively proven true or false.",
+    "text": "The taste of a perfectly ripe mango is delicious.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the taste of a mango, which varies from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation about the importance of celebrating small wins, which cannot be definitively proven true or false.",
+    "text": "Celebrating small wins matters.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation about the importance of celebrating small wins, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through scientific evidence and observation regarding the Earth's magnetic field and its effects on solar wind, making it a truth-evaluable proposition.",
+    "text": "Earth's magnetic field protects it from solar wind.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through scientific evidence and observation regarding the Earth's magnetic field and its effects on solar wind, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.9,
+    "rationale": "The statement expresses a subjective evaluation about the nature of rules and their purpose, which cannot be definitively proven true or false.",
+    "text": "Rules are meant to be challenged.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement expresses a subjective evaluation about the nature of rules and their purpose, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.9,
+    "rationale": "The statement expresses a subjective evaluation of exercise preferences and cannot be definitively proven true or false, as it depends on individual values and circumstances.",
+    "text": "Walking is a better form of exercise than driving short distances.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement expresses a subjective evaluation of exercise preferences and cannot be definitively proven true or false, as it depends on individual values and circumstances.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through scientific evidence and observation, as it is a well-established fact in biology that humans typically have 46 chromosomes.",
+    "text": "The human body has 46 chromosomes.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through scientific evidence and observation, as it is a well-established fact in biology that humans typically have 46 chromosomes.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the Andes Mountains.",
+    "text": "The Andes Mountains run along the western coast of South America.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical evidence and is a truth-evaluable proposition about the location of the Andes Mountains.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective preference about taste, which cannot be definitively proven true or false.",
+    "text": "Homemade jam tastes better than store-bought varieties.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective preference about taste, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the sight of a rainbow, describing it as 'magical', which cannot be objectively verified or falsified.",
+    "text": "The sight of a rainbow after a storm is magical.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the sight of a rainbow, describing it as 'magical', which cannot be objectively verified or falsified.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.9,
+    "rationale": "The statement expresses a subjective evaluation about introversion, suggesting a value judgment rather than a verifiable fact. It reflects a personal belief about the nature of introversion rather than an objective truth.",
+    "text": "Introversion isn't a flaw.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement expresses a subjective evaluation about introversion, suggesting a value judgment rather than a verifiable fact. It reflects a personal belief about the nature of introversion rather than an objective truth.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of music genres, which cannot be definitively proven true or false.",
+    "text": "Rock music is superior to pop music.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of music genres, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific research and measurements of body composition, making it a truth-evaluable proposition.",
+    "text": "The human body has an average body water percentage of about 50-65%.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific research and measurements of body composition, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the sound of a crackling fire, which varies from person to person and cannot be definitively proven true or false.",
+    "text": "The sound of a crackling fire is very comforting.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the sound of a crackling fire, which varies from person to person and cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.9,
+    "rationale": "The statement can be verified through observation and is based on the scientific understanding of light and color. While the perception of colors may vary, the classification of a rainbow typically includes seven distinct colors.",
+    "text": "A rainbow has seven colors.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.9,\n  \"rationale\": \"The statement can be verified through observation and is based on the scientific understanding of light and color. While the perception of colors may vary, the classification of a rainbow typically includes seven distinct colors.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific observation and evidence, as the bee hummingbird is indeed recognized as the smallest bird in the world.",
+    "text": "The smallest bird in the world is the bee hummingbird.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific observation and evidence, as the bee hummingbird is indeed recognized as the smallest bird in the world.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation about standing in lines, which cannot be proven true or false. It reflects a personal preference rather than an objective fact.",
+    "text": "Standing in lines is the worst.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation about standing in lines, which cannot be proven true or false. It reflects a personal preference rather than an objective fact.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the countryside and city, which can vary based on personal experiences and preferences, making it a non-epistemic belief.",
+    "text": "The countryside is more peaceful than the city.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the countryside and city, which can vary based on personal experiences and preferences, making it a non-epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement 'Bees produce honey' is a verifiable proposition that can be confirmed through observation and scientific evidence, making it an epistemic belief.",
+    "text": "Bees produce honey.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement 'Bees produce honey' is a verifiable proposition that can be confirmed through observation and scientific evidence, making it an epistemic belief.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation of architectural styles, which cannot be definitively proven true or false.",
+    "text": "Classical architecture is more impressive than modern designs.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation of architectural styles, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement can be verified through geographical data and is supported by scientific evidence, making it a truth-evaluable proposition.",
+    "text": "The Pacific Ocean is the largest ocean on Earth.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement can be verified through geographical data and is supported by scientific evidence, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.7,
+    "rationale": "While there is evidence suggesting that spending time in nature can reduce stress, the statement reflects a subjective evaluation that may vary from person to person, making it more of an opinion than a definitive fact.",
+    "text": "Spending time in nature reduces stress.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.7,\n  \"rationale\": \"While there is evidence suggesting that spending time in nature can reduce stress, the statement reflects a subjective evaluation that may vary from person to person, making it more of an opinion than a definitive fact.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 0.95,
+    "rationale": "The statement can be verified through scientific measurements of ocean depths, making it a truth-evaluable proposition about the world.",
+    "text": "The Pacific Ocean is deeper than the Atlantic Ocean.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 0.95,\n  \"rationale\": \"The statement can be verified through scientific measurements of ocean depths, making it a truth-evaluable proposition about the world.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Fact",
+    "confidence": 1.0,
+    "rationale": "The statement describes a fundamental property of squares that can be verified through geometric principles, making it a truth-evaluable proposition.",
+    "text": "A square has four equal sides.",
+    "true_label": "Fact",
+    "raw_response": "{\n  \"label\": \"Fact\",\n  \"confidence\": 1.0,\n  \"rationale\": \"The statement describes a fundamental property of squares that can be verified through geometric principles, making it a truth-evaluable proposition.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.1,
+    "rationale": "The statement expresses a subjective evaluation of the sound of children laughing, which cannot be definitively proven true or false.",
+    "text": "The sound of children laughing is heartwarming.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.1,\n  \"rationale\": \"The statement expresses a subjective evaluation of the sound of children laughing, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  },
+  {
+    "label": "Opinion",
+    "confidence": 0.0,
+    "rationale": "The statement expresses a subjective evaluation about communication preferences, which cannot be definitively proven true or false.",
+    "text": "People should talk less and listen more.",
+    "true_label": "Opinion",
+    "raw_response": "{\n  \"label\": \"Opinion\",\n  \"confidence\": 0.0,\n  \"rationale\": \"The statement expresses a subjective evaluation about communication preferences, which cannot be definitively proven true or false.\"\n}",
+    "parse_success": true
+  }
+]

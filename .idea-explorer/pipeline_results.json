@@ -1,14 +1,14 @@
 {
-  "success": false,
+  "success": true,
   "stages": {
     "resource_finder": {
       "success": true,
       "skipped": true
     },
     "experiment_runner": {
-      "success": false,
-      "return_code": 1,
-      "elapsed_time": 6.288914442062378,
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1902.8678517341614,
       "log_file": "/workspaces/llm-epistemic-belief-0328-claude/logs/execution_claude.log",
       "transcript_file": "/workspaces/llm-epistemic-belief-0328-claude/logs/execution_claude_transcript.jsonl"
     }

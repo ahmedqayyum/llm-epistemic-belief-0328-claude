@@ -1,0 +1,1202 @@
+[
+  {
+    "text": "The sum of angles in a triangle is 180 degrees.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9196332912991022
+  },
+  {
+    "text": "The sun is approximately 93 million miles from Earth.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8431780639319757
+  },
+  {
+    "text": "The largest canyon in the world is the Grand Canyon in the United States.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9196533160771774
+  },
+  {
+    "text": "Owning a house is more satisfying than renting.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.09299838593050858
+  },
+  {
+    "text": "Silence is more powerful than words.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.07791589030122048
+  },
+  {
+    "text": "It's better to arrive early than on time.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.11951832829381515
+  },
+  {
+    "text": "The invention of the printing press revolutionized communication.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7230042918091195
+  },
+  {
+    "text": "Everyone should vote.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2009570336235762
+  },
+  {
+    "text": "Reading books is more rewarding than watching movies.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.09803057567556417
+  },
+  {
+    "text": "The largest rainforest in the world is the Amazon Rainforest.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9518571348074696
+  },
+  {
+    "text": "The capital of South Africa is Pretoria.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.839608507710394
+  },
+  {
+    "text": "Summer is the best season of the year.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.4627513003124787
+  },
+  {
+    "text": "Summer is too hot.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2392042053228387
+  },
+  {
+    "text": "A giraffe has the longest neck of any land animal.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7792609942795871
+  },
+  {
+    "text": "People should get at least eight hours of sleep every night.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.254831107918274
+  },
+  {
+    "text": "Sarcasm is the highest form of wit.",
+    "true_label": "Opinion",
+    "pred_label": "Fact",
+    "confidence_fact": 0.6259507807316336
+  },
+  {
+    "text": "Australia is both a country and a continent.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5070186122023004
+  },
+  {
+    "text": "Watching comedies improves mood more than watching dramas.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.12843382423703298
+  },
+  {
+    "text": "The Sahara Desert is the largest hot desert in the world.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9090398521470625
+  },
+  {
+    "text": "The first man on the moon was Neil Armstrong.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.910595566150546
+  },
+  {
+    "text": "Fast driving is irresponsible and dangerous.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.38019209795435094
+  },
+  {
+    "text": "The Earth's atmosphere is approximately 78 percent nitrogen.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.83131391706563
+  },
+  {
+    "text": "Skipping breakfast is unhealthy.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.32070990956242196
+  },
+  {
+    "text": "The human tongue has about 10,000 taste buds.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.843134493652862
+  },
+  {
+    "text": "Magnetic north and true north are not the same location.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.6259881076480269
+  },
+  {
+    "text": "The Great Wall of China was built over several centuries.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7983060751947834
+  },
+  {
+    "text": "Sharks are fish.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5335128411040372
+  },
+  {
+    "text": "The Earth's rotation causes day and night.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7193154906450989
+  },
+  {
+    "text": "Reading self-help books can be motivating.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.21362159749870202
+  },
+  {
+    "text": "Homemade salad dressing is superior to bottled versions.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.21946535471462303
+  },
+  {
+    "text": "The first television was invented in the early 20th century.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8799990014640415
+  },
+  {
+    "text": "The Moon orbits the Earth approximately every 27.3 days.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8891363339549183
+  },
+  {
+    "text": "The human body has an average heart rate of about 72 beats per minute.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9449633530814547
+  },
+  {
+    "text": "The Mississippi River flows from north to south through the United States.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7911704590312044
+  },
+  {
+    "text": "A visit to a historical site is always fascinating.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2061978261166253
+  },
+  {
+    "text": "Cooking at home is more fulfilling than eating out.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.14196237890607055
+  },
+  {
+    "text": "The smell of fresh pine is invigorating.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.23898767394284037
+  },
+  {
+    "text": "Laughter builds connection.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.42969755492198636
+  },
+  {
+    "text": "Everyone should have a pet.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2936576055471579
+  },
+  {
+    "text": "The Great Lakes are located between the United States and Canada.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7760404088621459
+  },
+  {
+    "text": "There are 24 hours in a day.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5552866250694553
+  },
+  {
+    "text": "Pineapple doesn't belong on pizza.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3717150665127109
+  },
+  {
+    "text": "The North Pole is located in the Arctic Ocean.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9060816516901078
+  },
+  {
+    "text": "Mount Kilimanjaro is the highest peak in Africa.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7911789049936563
+  },
+  {
+    "text": "Using public libraries is important.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2876067325029944
+  },
+  {
+    "text": "Dogs are easier to train than cats.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2246432030945822
+  },
+  {
+    "text": "The Ganges River is located in India.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8181301136716903
+  },
+  {
+    "text": "Penguins are flightless birds that live primarily in the Southern Hemisphere.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7739686601774354
+  },
+  {
+    "text": "The best decisions are made with both heart and mind.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.42352789968497384
+  },
+  {
+    "text": "Polar bears live primarily in the Arctic region.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7183108914041221
+  },
+  {
+    "text": "Gaming can improve problem-solving skills.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3448348037478446
+  },
+  {
+    "text": "A walk through a botanical garden is a delightful experience.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.27387408373685873
+  },
+  {
+    "text": "The speed of sound in air is approximately 343 meters per second at sea level.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8445928449421453
+  },
+  {
+    "text": "Most selfies are pointless.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.1854453701398403
+  },
+  {
+    "text": "Spicy food is more flavorful than bland food.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.0788514507965552
+  },
+  {
+    "text": "Air contains oxygen and nitrogen.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.6351013819745243
+  },
+  {
+    "text": "Vegetarian diets are healthier than meat-based ones.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.23150159607656806
+  },
+  {
+    "text": "Salt water has a higher boiling point than fresh water.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5433406473380902
+  },
+  {
+    "text": "Money can't buy happiness.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3932082439870014
+  },
+  {
+    "text": "The currency of Mexico is the Peso.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8367735023517545
+  },
+  {
+    "text": "Listening to audiobooks is more convenient than reading physical books.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.08038954873866855
+  },
+  {
+    "text": "The human ear has three main parts: outer, middle, and inner ear.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8330320659593536
+  },
+  {
+    "text": "The first internet message was sent in 1969.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7983259276835377
+  },
+  {
+    "text": "The human body has an average body mass index (BMI) of about 18.5-24.9.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9397487487685391
+  },
+  {
+    "text": "Sharks have been on Earth for more than 400 million years.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5669344462331474
+  },
+  {
+    "text": "Homemade soup is more comforting than canned soup.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.13579764211852796
+  },
+  {
+    "text": "The Amazon rainforest produces approximately 20 percent of the world's oxygen.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8855974682709522
+  },
+  {
+    "text": "Comedy movies are more enjoyable than horror movies.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.12297762764348608
+  },
+  {
+    "text": "The planet Venus rotates clockwise.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7543222047298632
+  },
+  {
+    "text": "City life is more exciting than country life.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.10985272519606715
+  },
+  {
+    "text": "Lemons are a type of citrus fruit.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.505066221105971
+  },
+  {
+    "text": "Crisp air is more invigorating than humid air.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.1649602311903572
+  },
+  {
+    "text": "People should adopt pets instead of buying them.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.18214615054977634
+  },
+  {
+    "text": "The first successful airplane flight was made by the Wright brothers.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8137773831249807
+  },
+  {
+    "text": "Texting is more convenient than calling.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.082425738666565
+  },
+  {
+    "text": "A day spent at a theme park is thrilling and fun.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.20850859324031712
+  },
+  {
+    "text": "The human adult body is about 60% water.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9090077158930566
+  },
+  {
+    "text": "People should watch less TV and read more.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.09663632204095973
+  },
+  {
+    "text": "Taking a walk is a better stress reliever than watching TV.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.11180375999830239
+  },
+  {
+    "text": "Children should have limited screen time.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.26173036388459103
+  },
+  {
+    "text": "Mount Everest is the highest mountain above sea level.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7576914001421736
+  },
+  {
+    "text": "The Nile River is the longest river in the world.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9120703335188055
+  },
+  {
+    "text": "The chemical symbol for thorium is Th.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9188128525379075
+  },
+  {
+    "text": "Books are better than movies for storytelling.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.11494108716723395
+  },
+  {
+    "text": "A well-made wooden toy is better than a plastic one.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.11713140108537712
+  },
+  {
+    "text": "The chemical symbol for radon is Rn.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9188128525379075
+  },
+  {
+    "text": "Dogs have better personalities than cats.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.26224438526244587
+  },
+  {
+    "text": "The smallest country in the world is Vatican City.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8888626375249145
+  },
+  {
+    "text": "Gardening is a very therapeutic hobby.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.24934755754924287
+  },
+  {
+    "text": "The human body has five senses.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8985838343885525
+  },
+  {
+    "text": "The human body has 206 bones.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9531682872303744
+  },
+  {
+    "text": "Classic novels are better than modern ones.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.12295468212833571
+  },
+  {
+    "text": "Artichokes are an underrated vegetable.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.4033147265847886
+  },
+  {
+    "text": "The chemical symbol for oxygen is O.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8983663887721832
+  },
+  {
+    "text": "A compass points north.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5181820890879534
+  },
+  {
+    "text": "Camping is a better vacation than staying in hotels.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.19712216645669356
+  },
+  {
+    "text": "Freshly baked bread smells better than any perfume.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.16748839552159345
+  },
+  {
+    "text": "The chemical symbol for nitrogen is N.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9034983691545759
+  },
+  {
+    "text": "The human stomach produces acid to digest food.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8111800916858776
+  },
+  {
+    "text": "The future is full of exciting possibilities.",
+    "true_label": "Opinion",
+    "pred_label": "Fact",
+    "confidence_fact": 0.604105817535558
+  },
+  {
+    "text": "Saturn has rings made of ice and rock.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7119633236467713
+  },
+  {
+    "text": "Berlin is the capital city of Germany.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8808139021981479
+  },
+  {
+    "text": "Local farmers' markets are superior to grocery stores.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.24472229806947854
+  },
+  {
+    "text": "Handmade pottery is more beautiful than factory-made ceramics.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.1394127432641591
+  },
+  {
+    "text": "The taste of a perfectly ripe tomato is unbeatable.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3223011162755969
+  },
+  {
+    "text": "Jazz music is more sophisticated than pop music.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.1397839702781989
+  },
+  {
+    "text": "The tallest building in the world as of 2025 is the Burj Khalifa.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8477156162705898
+  },
+  {
+    "text": "The human stomach produces acid to aid digestion.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7968799224036769
+  },
+  {
+    "text": "Homemade ice cream is creamier than store-bought versions.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.21188877534388795
+  },
+  {
+    "text": "Being polite is often overlooked.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.34767404674118996
+  },
+  {
+    "text": "Camping under the stars is more memorable than staying in luxury hotels.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2784494949091687
+  },
+  {
+    "text": "The human body contains 206 bones in adulthood.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.915967426773832
+  },
+  {
+    "text": "Walking in nature is more therapeutic than indoor exercise.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.13902871885441237
+  },
+  {
+    "text": "Electric cars are better for the environment.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.37558816503426773
+  },
+  {
+    "text": "Koalas are native to Australia.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.50793080632901
+  },
+  {
+    "text": "Learning new languages is very rewarding.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.22793401039093186
+  },
+  {
+    "text": "The chemical symbol for francium is Fr.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9188128525379075
+  },
+  {
+    "text": "The speed of sound in dry air at 20 degrees Celsius is 343 meters per second.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8233393567234587
+  },
+  {
+    "text": "The ocean is more fascinating than outer space.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3169556623094194
+  },
+  {
+    "text": "Metamorphosis is the process by which caterpillars become butterflies.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7757542428053391
+  },
+  {
+    "text": "Cats have retractable claws.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5599615325573033
+  },
+  {
+    "text": "Green is the most calming color.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3590831048965789
+  },
+  {
+    "text": "A visit to an arboretum is always inspiring.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.20900145982232243
+  },
+  {
+    "text": "Pizza tastes best when it has a thin crust.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3601030483321891
+  },
+  {
+    "text": "The Dead Sea is located between Israel and Jordan.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.6846797626772592
+  },
+  {
+    "text": "Solar energy comes from the Sun.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7240472357382504
+  },
+  {
+    "text": "The night sky is more inspiring than the daytime sky.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.21937438231345674
+  },
+  {
+    "text": "A day spent at an amusement park is exciting and fun.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.198163042588141
+  },
+  {
+    "text": "The planet Jupiter is the largest in the solar system.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9299024726152361
+  },
+  {
+    "text": "Bamboo is a type of grass.",
+    "true_label": "Fact",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.47983023901645483
+  },
+  {
+    "text": "Eating breakfast is the most important meal of the day.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.29084665604041715
+  },
+  {
+    "text": "The Earth's diameter is about 12,742 kilometers.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8889626022858587
+  },
+  {
+    "text": "Humans have 32 permanent teeth.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5855271287340158
+  },
+  {
+    "text": "The taste of a ripe, juicy peach is heavenly.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3751246630069711
+  },
+  {
+    "text": "The human liver can regenerate lost tissue.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7733806959613392
+  },
+  {
+    "text": "People should spend less time on their phones.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.15307106237525614
+  },
+  {
+    "text": "The human body has an average body fat percentage of about 15% for athletes.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9226751111436712
+  },
+  {
+    "text": "Art museums are more inspiring than history museums.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.14535638038793763
+  },
+  {
+    "text": "The planet Saturn has rings made of ice and rock.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8087069005268953
+  },
+  {
+    "text": "Most theme parks are overpriced.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.25806434109590937
+  },
+  {
+    "text": "The sight of a field of sunflowers is breathtaking.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.4046869885775872
+  },
+  {
+    "text": "People should volunteer regularly to help their communities.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.12706531598869053
+  },
+  {
+    "text": "People should spend more time with family.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.07412110494929192
+  },
+  {
+    "text": "The Sahara Desert receives less than 25 millimeters of rain annually in many areas.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.6497121137488824
+  },
+  {
+    "text": "The first telephone was invented by Alexander Graham Bell.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8634864445183044
+  },
+  {
+    "text": "The Atlantic Ocean is saltwater.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7116219993368265
+  },
+  {
+    "text": "The human brain controls bodily functions and cognition.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9069767755350967
+  },
+  {
+    "text": "Summer is the best season for outdoor activities.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2978984142131088
+  },
+  {
+    "text": "Mount Everest is the tallest mountain above sea level.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7412536916361683
+  },
+  {
+    "text": "The human body has over 600 muscles.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8923640010219411
+  },
+  {
+    "text": "Rainy days are cozy.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.3479853565468102
+  },
+  {
+    "text": "Driving at night is more relaxing than during the day.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.12908577882148242
+  },
+  {
+    "text": "New York City has five boroughs.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.578742462483659
+  },
+  {
+    "text": "Spiders are arachnids.",
+    "true_label": "Fact",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.44753120586003337
+  },
+  {
+    "text": "The human tongue has approximately 10,000 taste buds.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8536799809488957
+  },
+  {
+    "text": "The human stomach produces hydrochloric acid.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9515802416360116
+  },
+  {
+    "text": "Chocolate ice cream tastes better than vanilla.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.13228766148660098
+  },
+  {
+    "text": "Bright lighting improves mood.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2937039544380644
+  },
+  {
+    "text": "The human body's smallest bone is in the ear.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8982862700514889
+  },
+  {
+    "text": "The currency of Japan is the yen.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8323487271046135
+  },
+  {
+    "text": "Having a positive outlook makes life better.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.16913977857603346
+  },
+  {
+    "text": "Simple designs are often the most elegant.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.30340855774021425
+  },
+  {
+    "text": "We should all read more poetry.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.14955148597250345
+  },
+  {
+    "text": "Taking a hot bath is incredibly relaxing.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2655252261518265
+  },
+  {
+    "text": "The human eye can distinguish about 10 million different colors.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7644704060488066
+  },
+  {
+    "text": "The chemical symbol for neon is Ne.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9188128525379075
+  },
+  {
+    "text": "Fiction teaches important life lessons.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.24367240549371094
+  },
+  {
+    "text": "Conduction is the transfer of heat through direct contact.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.722726130676822
+  },
+  {
+    "text": "Bright colors are more cheerful than muted ones.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.10385778111337751
+  },
+  {
+    "text": "The chemical symbol for protactinium is Pa.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9188128525379075
+  },
+  {
+    "text": "A year on Earth is approximately 365.25 days long.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.6910854977186882
+  },
+  {
+    "text": "The capital of Indonesia is Jakarta.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9623115603294545
+  },
+  {
+    "text": "The human eye can distinguish about 10 million colors.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7763455981299552
+  },
+  {
+    "text": "Sharks are fish that have skeletons made of cartilage rather than bone.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5787458217104096
+  },
+  {
+    "text": "Morning walks are more energizing than evening walks.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.1169062391618012
+  },
+  {
+    "text": "The taste of a perfectly ripe mango is delicious.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.28580462862711964
+  },
+  {
+    "text": "Celebrating small wins matters.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.32557627131602984
+  },
+  {
+    "text": "Earth's magnetic field protects it from solar wind.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.598842805428319
+  },
+  {
+    "text": "Rules are meant to be challenged.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.23501515048844068
+  },
+  {
+    "text": "Walking is a better form of exercise than driving short distances.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.13632567665078144
+  },
+  {
+    "text": "The human body has 46 chromosomes.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9443296433144377
+  },
+  {
+    "text": "The Andes Mountains run along the western coast of South America.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.731966226290993
+  },
+  {
+    "text": "Homemade jam tastes better than store-bought varieties.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.1196523163117873
+  },
+  {
+    "text": "The sight of a rainbow after a storm is magical.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.46531183567828294
+  },
+  {
+    "text": "Introversion isn't a flaw.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.35929018439672866
+  },
+  {
+    "text": "Rock music is superior to pop music.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.2004722847001288
+  },
+  {
+    "text": "The human body has an average body water percentage of about 50-65%.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.956196204494713
+  },
+  {
+    "text": "The sound of a crackling fire is very comforting.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.4086247234609114
+  },
+  {
+    "text": "A rainbow has seven colors.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5907538260537386
+  },
+  {
+    "text": "The smallest bird in the world is the bee hummingbird.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8908455259397138
+  },
+  {
+    "text": "Standing in lines is the worst.",
+    "true_label": "Opinion",
+    "pred_label": "Fact",
+    "confidence_fact": 0.8036495749958869
+  },
+  {
+    "text": "The countryside is more peaceful than the city.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.23094265144939952
+  },
+  {
+    "text": "Bees produce honey.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.5425841445026862
+  },
+  {
+    "text": "Classical architecture is more impressive than modern designs.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.06461261404232466
+  },
+  {
+    "text": "The Pacific Ocean is the largest ocean on Earth.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.9264544687654263
+  },
+  {
+    "text": "Spending time in nature reduces stress.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.35500241850306824
+  },
+  {
+    "text": "The Pacific Ocean is deeper than the Atlantic Ocean.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.7212470023929494
+  },
+  {
+    "text": "A square has four equal sides.",
+    "true_label": "Fact",
+    "pred_label": "Fact",
+    "confidence_fact": 0.6460657091475113
+  },
+  {
+    "text": "The sound of children laughing is heartwarming.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.4748570344145656
+  },
+  {
+    "text": "People should talk less and listen more.",
+    "true_label": "Opinion",
+    "pred_label": "Opinion",
+    "confidence_fact": 0.06683956155268733
+  }
+]

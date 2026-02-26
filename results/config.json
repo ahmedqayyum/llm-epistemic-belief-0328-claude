@@ -1,0 +1,49 @@
+{
+  "seed": 42,
+  "dataset": "agentlans/fact-or-opinion",
+  "dataset_filter": "language == 'en', label in ['Fact', 'Opinion']",
+  "eval_set_size": 200,
+  "n_per_class": 100,
+  "exploratory_set_size": 50,
+  "models": {
+    "baseline": {
+      "type": "TF-IDF + Logistic Regression",
+      "tfidf_ngram_range": [1, 2],
+      "tfidf_max_features": 5000,
+      "logreg_class_weight": "balanced",
+      "logreg_max_iter": 1000,
+      "logreg_C": 1.0
+    },
+    "gpt41": {
+      "provider": "openai",
+      "model_id": "gpt-4.1",
+      "temperature": 0,
+      "max_tokens": 200
+    },
+    "gpt4o": {
+      "provider": "openai",
+      "model_id": "gpt-4o",
+      "temperature": 0,
+      "max_tokens": 200
+    },
+    "gpt4o_mini": {
+      "provider": "openai",
+      "model_id": "gpt-4o-mini",
+      "temperature": 0,
+      "max_tokens": 200
+    }
+  },
+  "statistical_tests": {
+    "significance_level": 0.05,
+    "bonferroni_correction": true,
+    "h1_test": "binomial test (> 0.5)",
+    "h2_test": "Welch's t-test + Cohen's d",
+    "h3_test": "Chi-square / Fisher's exact + Cramér's V"
+  },
+  "environment": {
+    "python_version": "3.12.8",
+    "platform": "linux",
+    "gpu": "none (CPU only)",
+    "timestamp": "2026-02-26"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "h1_classification": {
+    "TF-IDF Baseline": {
+      "model": "TF-IDF Baseline",
+      "accuracy": 0.975,
+      "macro_f1": 0.9749993749843746,
+      "n": 200,
+      "n_correct": 195,
+      "binomial_p": 1.6190222767422942e-51,
+      "ci_lower": 0.9428208558483829,
+      "ci_upper": 0.9892754385292123,
+      "fact_precision": 0.9702970297029703,
+      "fact_recall": 0.98,
+      "opinion_precision": 0.9797979797979798,
+      "opinion_recall": 0.97,
+      "h1_supported": "True"
+    },
+    "GPT-4.1": {
+      "model": "GPT-4.1",
+      "accuracy": 0.975,
+      "macro_f1": 0.9749843652282677,
+      "n": 200,
+      "n_correct": 195,
+      "binomial_p": 1.6190222767422942e-51,
+      "ci_lower": 0.9428208558483829,
+      "ci_upper": 0.9892754385292123,
+      "fact_precision": 0.9523809523809523,
+      "fact_recall": 1.0,
+      "opinion_precision": 1.0,
+      "opinion_recall": 0.95,
+      "h1_supported": "True"
+    },
+    "GPT-4o": {
+      "model": "GPT-4o",
+      "accuracy": 0.98,
+      "macro_f1": 0.9799919967987194,
+      "n": 200,
+      "n_correct": 196,
+      "binomial_p": 4.1083382919372717e-53,
+      "ci_lower": 0.9497121344948062,
+      "ci_upper": 0.9921956998236058,
+      "fact_precision": 0.9615384615384616,
+      "fact_recall": 1.0,
+      "opinion_precision": 1.0,
+      "opinion_recall": 0.96,
+      "h1_supported": "True"
+    },
+    "GPT-4o-mini": {
+      "model": "GPT-4o-mini",
+      "accuracy": 0.99,
+      "macro_f1": 0.9899989998999901,
+      "n": 200,
+      "n_correct": 198,
+      "binomial_p": 1.250888301002868e-56,
+      "ci_lower": 0.9642775148038205,
+      "ci_upper": 0.9972533993962251,
+      "fact_precision": 1.0,
+      "fact_recall": 0.98,
+      "opinion_precision": 0.9803921568627451,
+      "opinion_recall": 1.0,
+      "h1_supported": "True"
+    }
+  },
+  "h2_calibration": {
+    "TF-IDF Baseline": {
+      "model": "TF-IDF Baseline",
+      "mean_conf_fact": 0.7849056797492991,
+      "std_conf_fact": 0.13708818149886579,
+      "mean_conf_opinion": 0.2435897092249968,
+      "std_conf_opinion": 0.1312221188507109,
+      "mean_diff": 0.5413159705243024,
+      "ci_diff_lower": 0.5033890932073614,
+      "ci_diff_upper": 0.5779345269548045,
+      "t_stat": 28.38195588360962,
+      "p_value": 1.218963146954361e-71,
+      "cohens_d": 4.013814693727559,
+      "brier_score": 0.07080696351338277,
+      "h2_supported": "True"
+    },
+    "GPT-4.1": {
+      "model": "GPT-4.1",
+      "mean_conf_fact": 0.9883000000000002,
+      "std_conf_fact": 0.025141797867296617,
+      "mean_conf_opinion": 0.09350000000000001,
+      "std_conf_opinion": 0.17559256817986346,
+      "mean_diff": 0.8948000000000002,
+      "ci_diff_lower": 0.8574,
+      "ci_diff_upper": 0.9266000000000001,
+      "t_stat": 50.19155730617757,
+      "p_value": 2.9808252547060034e-74,
+      "cohens_d": 7.098158105902273,
+      "brier_score": 0.020172,
+      "h2_supported": "True"
+    },
+    "GPT-4o": {
+      "model": "GPT-4o",
+      "mean_conf_fact": 0.9810000000000001,
+      "std_conf_fact": 0.03590264614203248,
+      "mean_conf_opinion": 0.10100000000000002,
+      "std_conf_opinion": 0.16522409025320733,
+      "mean_diff": 0.8800000000000001,
+      "ci_diff_lower": 0.8450000000000003,
+      "ci_diff_upper": 0.911,
+      "t_stat": 51.7855249124457,
+      "p_value": 2.9733936619479916e-78,
+      "cohens_d": 7.3235791665790515,
+      "brier_score": 0.019575000000000002,
+      "h2_supported": "True"
+    },
+    "GPT-4o-mini": {
+      "model": "GPT-4o-mini",
+      "mean_conf_fact": 0.9745,
+      "std_conf_fact": 0.05408095783175444,
+      "mean_conf_opinion": 0.146,
+      "std_conf_opinion": 0.22645970944077445,
+      "mean_diff": 0.8285,
+      "ci_diff_lower": 0.782,
+      "ci_diff_upper": 0.8715,
+      "t_stat": 35.40588166890962,
+      "p_value": 4.76832112490672e-62,
+      "cohens_d": 5.0071478043948945,
+      "brier_score": 0.03808750000000001,
+      "h2_supported": "True"
+    }
+  },
+  "h3_reasoning": {
+    "TF-IDF Baseline": {
+      "model": "TF-IDF Baseline",
+      "fact_epistemic_keywords": 0,
+      "fact_opinion_keywords": 0,
+      "opinion_epistemic_keywords": 0,
+      "opinion_opinion_keywords": 0,
+      "epistemic_kw_per_fact_rationale": 0.0,
+      "opinion_kw_per_fact_rationale": 0.0,
+      "epistemic_kw_per_opinion_rationale": 0.0,
+      "opinion_kw_per_opinion_rationale": 0.0,
+      "chi2": 0.0,
+      "chi2_p": 1.0,
+      "cramers_v": 0.0,
+      "contingency_table": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "h3_supported": false
+    },
+    "GPT-4.1": {
+      "model": "GPT-4.1",
+      "fact_epistemic_keywords": 255,
+      "fact_opinion_keywords": 46,
+      "opinion_epistemic_keywords": 207,
+      "opinion_opinion_keywords": 275,
+      "epistemic_kw_per_fact_rationale": 2.55,
+      "opinion_kw_per_fact_rationale": 0.46,
+      "epistemic_kw_per_opinion_rationale": 2.07,
+      "opinion_kw_per_opinion_rationale": 2.75,
+      "chi2": 131.9350279468668,
+      "chi2_p": 1.5459702468252035e-30,
+      "cramers_v": 0.4104867806914557,
+      "contingency_table": [
+        [
+          255,
+          46
+        ],
+        [
+          207,
+          275
+        ]
+      ],
+      "h3_supported": "True"
+    },
+    "GPT-4o": {
+      "model": "GPT-4o",
+      "fact_epistemic_keywords": 248,
+      "fact_opinion_keywords": 0,
+      "opinion_epistemic_keywords": 196,
+      "opinion_opinion_keywords": 247,
+      "epistemic_kw_per_fact_rationale": 2.48,
+      "opinion_kw_per_fact_rationale": 0.0,
+      "epistemic_kw_per_opinion_rationale": 1.96,
+      "opinion_kw_per_opinion_rationale": 2.47,
+      "chi2": 212.7781585392509,
+      "chi2_p": 3.9508816164381625e-64,
+      "cramers_v": 0.5549124890776669,
+      "contingency_table": [
+        [
+          248,
+          0
+        ],
+        [
+          196,
+          247
+        ]
+      ],
+      "h3_supported": "True"
+    },
+    "GPT-4o-mini": {
+      "model": "GPT-4o-mini",
+      "fact_epistemic_keywords": 255,
+      "fact_opinion_keywords": 3,
+      "opinion_epistemic_keywords": 287,
+      "opinion_opinion_keywords": 145,
+      "epistemic_kw_per_fact_rationale": 2.55,
+      "opinion_kw_per_fact_rationale": 0.03,
+      "epistemic_kw_per_opinion_rationale": 2.87,
+      "opinion_kw_per_opinion_rationale": 1.45,
+      "chi2": 98.74116191394668,
+      "chi2_p": 2.8775833998833344e-23,
+      "cramers_v": 0.3782897476916582,
+      "contingency_table": [
+        [
+          255,
+          3
+        ],
+        [
+          287,
+          145
+        ]
+      ],
+      "h3_supported": "True"
+    }
+  },
+  "models_analyzed": [
+    "TF-IDF Baseline",
+    "GPT-4.1",
+    "GPT-4o",
+    "GPT-4o-mini"
+  ],
+  "n_statements_per_model": {
+    "TF-IDF Baseline": 200,
+    "GPT-4.1": 200,
+    "GPT-4o": 200,
+    "GPT-4o-mini": 200
+  }
+}

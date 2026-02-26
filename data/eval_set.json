@@ -1,0 +1,802 @@
+[
+  {
+    "text": "The sum of angles in a triangle is 180 degrees.",
+    "label": "Fact"
+  },
+  {
+    "text": "The sun is approximately 93 million miles from Earth.",
+    "label": "Fact"
+  },
+  {
+    "text": "The largest canyon in the world is the Grand Canyon in the United States.",
+    "label": "Fact"
+  },
+  {
+    "text": "Owning a house is more satisfying than renting.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Silence is more powerful than words.",
+    "label": "Opinion"
+  },
+  {
+    "text": "It's better to arrive early than on time.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The invention of the printing press revolutionized communication.",
+    "label": "Fact"
+  },
+  {
+    "text": "Everyone should vote.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Reading books is more rewarding than watching movies.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The largest rainforest in the world is the Amazon Rainforest.",
+    "label": "Fact"
+  },
+  {
+    "text": "The capital of South Africa is Pretoria.",
+    "label": "Fact"
+  },
+  {
+    "text": "Summer is the best season of the year.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Summer is too hot.",
+    "label": "Opinion"
+  },
+  {
+    "text": "A giraffe has the longest neck of any land animal.",
+    "label": "Fact"
+  },
+  {
+    "text": "People should get at least eight hours of sleep every night.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Sarcasm is the highest form of wit.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Australia is both a country and a continent.",
+    "label": "Fact"
+  },
+  {
+    "text": "Watching comedies improves mood more than watching dramas.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Sahara Desert is the largest hot desert in the world.",
+    "label": "Fact"
+  },
+  {
+    "text": "The first man on the moon was Neil Armstrong.",
+    "label": "Fact"
+  },
+  {
+    "text": "Fast driving is irresponsible and dangerous.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Earth's atmosphere is approximately 78 percent nitrogen.",
+    "label": "Fact"
+  },
+  {
+    "text": "Skipping breakfast is unhealthy.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human tongue has about 10,000 taste buds.",
+    "label": "Fact"
+  },
+  {
+    "text": "Magnetic north and true north are not the same location.",
+    "label": "Fact"
+  },
+  {
+    "text": "The Great Wall of China was built over several centuries.",
+    "label": "Fact"
+  },
+  {
+    "text": "Sharks are fish.",
+    "label": "Fact"
+  },
+  {
+    "text": "The Earth's rotation causes day and night.",
+    "label": "Fact"
+  },
+  {
+    "text": "Reading self-help books can be motivating.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Homemade salad dressing is superior to bottled versions.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The first television was invented in the early 20th century.",
+    "label": "Fact"
+  },
+  {
+    "text": "The Moon orbits the Earth approximately every 27.3 days.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human body has an average heart rate of about 72 beats per minute.",
+    "label": "Fact"
+  },
+  {
+    "text": "The Mississippi River flows from north to south through the United States.",
+    "label": "Fact"
+  },
+  {
+    "text": "A visit to a historical site is always fascinating.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Cooking at home is more fulfilling than eating out.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The smell of fresh pine is invigorating.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Laughter builds connection.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Everyone should have a pet.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Great Lakes are located between the United States and Canada.",
+    "label": "Fact"
+  },
+  {
+    "text": "There are 24 hours in a day.",
+    "label": "Fact"
+  },
+  {
+    "text": "Pineapple doesn't belong on pizza.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The North Pole is located in the Arctic Ocean.",
+    "label": "Fact"
+  },
+  {
+    "text": "Mount Kilimanjaro is the highest peak in Africa.",
+    "label": "Fact"
+  },
+  {
+    "text": "Using public libraries is important.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Dogs are easier to train than cats.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Ganges River is located in India.",
+    "label": "Fact"
+  },
+  {
+    "text": "Penguins are flightless birds that live primarily in the Southern Hemisphere.",
+    "label": "Fact"
+  },
+  {
+    "text": "The best decisions are made with both heart and mind.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Polar bears live primarily in the Arctic region.",
+    "label": "Fact"
+  },
+  {
+    "text": "Gaming can improve problem-solving skills.",
+    "label": "Opinion"
+  },
+  {
+    "text": "A walk through a botanical garden is a delightful experience.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The speed of sound in air is approximately 343 meters per second at sea level.",
+    "label": "Fact"
+  },
+  {
+    "text": "Most selfies are pointless.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Spicy food is more flavorful than bland food.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Air contains oxygen and nitrogen.",
+    "label": "Fact"
+  },
+  {
+    "text": "Vegetarian diets are healthier than meat-based ones.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Salt water has a higher boiling point than fresh water.",
+    "label": "Fact"
+  },
+  {
+    "text": "Money can't buy happiness.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The currency of Mexico is the Peso.",
+    "label": "Fact"
+  },
+  {
+    "text": "Listening to audiobooks is more convenient than reading physical books.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human ear has three main parts: outer, middle, and inner ear.",
+    "label": "Fact"
+  },
+  {
+    "text": "The first internet message was sent in 1969.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human body has an average body mass index (BMI) of about 18.5-24.9.",
+    "label": "Fact"
+  },
+  {
+    "text": "Sharks have been on Earth for more than 400 million years.",
+    "label": "Fact"
+  },
+  {
+    "text": "Homemade soup is more comforting than canned soup.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Amazon rainforest produces approximately 20 percent of the world's oxygen.",
+    "label": "Fact"
+  },
+  {
+    "text": "Comedy movies are more enjoyable than horror movies.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The planet Venus rotates clockwise.",
+    "label": "Fact"
+  },
+  {
+    "text": "City life is more exciting than country life.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Lemons are a type of citrus fruit.",
+    "label": "Fact"
+  },
+  {
+    "text": "Crisp air is more invigorating than humid air.",
+    "label": "Opinion"
+  },
+  {
+    "text": "People should adopt pets instead of buying them.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The first successful airplane flight was made by the Wright brothers.",
+    "label": "Fact"
+  },
+  {
+    "text": "Texting is more convenient than calling.",
+    "label": "Opinion"
+  },
+  {
+    "text": "A day spent at a theme park is thrilling and fun.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human adult body is about 60% water.",
+    "label": "Fact"
+  },
+  {
+    "text": "People should watch less TV and read more.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Taking a walk is a better stress reliever than watching TV.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Children should have limited screen time.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Mount Everest is the highest mountain above sea level.",
+    "label": "Fact"
+  },
+  {
+    "text": "The Nile River is the longest river in the world.",
+    "label": "Fact"
+  },
+  {
+    "text": "The chemical symbol for thorium is Th.",
+    "label": "Fact"
+  },
+  {
+    "text": "Books are better than movies for storytelling.",
+    "label": "Opinion"
+  },
+  {
+    "text": "A well-made wooden toy is better than a plastic one.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The chemical symbol for radon is Rn.",
+    "label": "Fact"
+  },
+  {
+    "text": "Dogs have better personalities than cats.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The smallest country in the world is Vatican City.",
+    "label": "Fact"
+  },
+  {
+    "text": "Gardening is a very therapeutic hobby.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human body has five senses.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human body has 206 bones.",
+    "label": "Fact"
+  },
+  {
+    "text": "Classic novels are better than modern ones.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Artichokes are an underrated vegetable.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The chemical symbol for oxygen is O.",
+    "label": "Fact"
+  },
+  {
+    "text": "A compass points north.",
+    "label": "Fact"
+  },
+  {
+    "text": "Camping is a better vacation than staying in hotels.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Freshly baked bread smells better than any perfume.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The chemical symbol for nitrogen is N.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human stomach produces acid to digest food.",
+    "label": "Fact"
+  },
+  {
+    "text": "The future is full of exciting possibilities.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Saturn has rings made of ice and rock.",
+    "label": "Fact"
+  },
+  {
+    "text": "Berlin is the capital city of Germany.",
+    "label": "Fact"
+  },
+  {
+    "text": "Local farmers' markets are superior to grocery stores.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Handmade pottery is more beautiful than factory-made ceramics.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The taste of a perfectly ripe tomato is unbeatable.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Jazz music is more sophisticated than pop music.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The tallest building in the world as of 2025 is the Burj Khalifa.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human stomach produces acid to aid digestion.",
+    "label": "Fact"
+  },
+  {
+    "text": "Homemade ice cream is creamier than store-bought versions.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Being polite is often overlooked.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Camping under the stars is more memorable than staying in luxury hotels.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human body contains 206 bones in adulthood.",
+    "label": "Fact"
+  },
+  {
+    "text": "Walking in nature is more therapeutic than indoor exercise.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Electric cars are better for the environment.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Koalas are native to Australia.",
+    "label": "Fact"
+  },
+  {
+    "text": "Learning new languages is very rewarding.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The chemical symbol for francium is Fr.",
+    "label": "Fact"
+  },
+  {
+    "text": "The speed of sound in dry air at 20 degrees Celsius is 343 meters per second.",
+    "label": "Fact"
+  },
+  {
+    "text": "The ocean is more fascinating than outer space.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Metamorphosis is the process by which caterpillars become butterflies.",
+    "label": "Fact"
+  },
+  {
+    "text": "Cats have retractable claws.",
+    "label": "Fact"
+  },
+  {
+    "text": "Green is the most calming color.",
+    "label": "Opinion"
+  },
+  {
+    "text": "A visit to an arboretum is always inspiring.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Pizza tastes best when it has a thin crust.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Dead Sea is located between Israel and Jordan.",
+    "label": "Fact"
+  },
+  {
+    "text": "Solar energy comes from the Sun.",
+    "label": "Fact"
+  },
+  {
+    "text": "The night sky is more inspiring than the daytime sky.",
+    "label": "Opinion"
+  },
+  {
+    "text": "A day spent at an amusement park is exciting and fun.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The planet Jupiter is the largest in the solar system.",
+    "label": "Fact"
+  },
+  {
+    "text": "Bamboo is a type of grass.",
+    "label": "Fact"
+  },
+  {
+    "text": "Eating breakfast is the most important meal of the day.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Earth's diameter is about 12,742 kilometers.",
+    "label": "Fact"
+  },
+  {
+    "text": "Humans have 32 permanent teeth.",
+    "label": "Fact"
+  },
+  {
+    "text": "The taste of a ripe, juicy peach is heavenly.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human liver can regenerate lost tissue.",
+    "label": "Fact"
+  },
+  {
+    "text": "People should spend less time on their phones.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human body has an average body fat percentage of about 15% for athletes.",
+    "label": "Fact"
+  },
+  {
+    "text": "Art museums are more inspiring than history museums.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The planet Saturn has rings made of ice and rock.",
+    "label": "Fact"
+  },
+  {
+    "text": "Most theme parks are overpriced.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The sight of a field of sunflowers is breathtaking.",
+    "label": "Opinion"
+  },
+  {
+    "text": "People should volunteer regularly to help their communities.",
+    "label": "Opinion"
+  },
+  {
+    "text": "People should spend more time with family.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Sahara Desert receives less than 25 millimeters of rain annually in many areas.",
+    "label": "Fact"
+  },
+  {
+    "text": "The first telephone was invented by Alexander Graham Bell.",
+    "label": "Fact"
+  },
+  {
+    "text": "The Atlantic Ocean is saltwater.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human brain controls bodily functions and cognition.",
+    "label": "Fact"
+  },
+  {
+    "text": "Summer is the best season for outdoor activities.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Mount Everest is the tallest mountain above sea level.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human body has over 600 muscles.",
+    "label": "Fact"
+  },
+  {
+    "text": "Rainy days are cozy.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Driving at night is more relaxing than during the day.",
+    "label": "Opinion"
+  },
+  {
+    "text": "New York City has five boroughs.",
+    "label": "Fact"
+  },
+  {
+    "text": "Spiders are arachnids.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human tongue has approximately 10,000 taste buds.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human stomach produces hydrochloric acid.",
+    "label": "Fact"
+  },
+  {
+    "text": "Chocolate ice cream tastes better than vanilla.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Bright lighting improves mood.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human body's smallest bone is in the ear.",
+    "label": "Fact"
+  },
+  {
+    "text": "The currency of Japan is the yen.",
+    "label": "Fact"
+  },
+  {
+    "text": "Having a positive outlook makes life better.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Simple designs are often the most elegant.",
+    "label": "Opinion"
+  },
+  {
+    "text": "We should all read more poetry.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Taking a hot bath is incredibly relaxing.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human eye can distinguish about 10 million different colors.",
+    "label": "Fact"
+  },
+  {
+    "text": "The chemical symbol for neon is Ne.",
+    "label": "Fact"
+  },
+  {
+    "text": "Fiction teaches important life lessons.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Conduction is the transfer of heat through direct contact.",
+    "label": "Fact"
+  },
+  {
+    "text": "Bright colors are more cheerful than muted ones.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The chemical symbol for protactinium is Pa.",
+    "label": "Fact"
+  },
+  {
+    "text": "A year on Earth is approximately 365.25 days long.",
+    "label": "Fact"
+  },
+  {
+    "text": "The capital of Indonesia is Jakarta.",
+    "label": "Fact"
+  },
+  {
+    "text": "The human eye can distinguish about 10 million colors.",
+    "label": "Fact"
+  },
+  {
+    "text": "Sharks are fish that have skeletons made of cartilage rather than bone.",
+    "label": "Fact"
+  },
+  {
+    "text": "Morning walks are more energizing than evening walks.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The taste of a perfectly ripe mango is delicious.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Celebrating small wins matters.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Earth's magnetic field protects it from solar wind.",
+    "label": "Fact"
+  },
+  {
+    "text": "Rules are meant to be challenged.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Walking is a better form of exercise than driving short distances.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human body has 46 chromosomes.",
+    "label": "Fact"
+  },
+  {
+    "text": "The Andes Mountains run along the western coast of South America.",
+    "label": "Fact"
+  },
+  {
+    "text": "Homemade jam tastes better than store-bought varieties.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The sight of a rainbow after a storm is magical.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Introversion isn't a flaw.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Rock music is superior to pop music.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The human body has an average body water percentage of about 50-65%.",
+    "label": "Fact"
+  },
+  {
+    "text": "The sound of a crackling fire is very comforting.",
+    "label": "Opinion"
+  },
+  {
+    "text": "A rainbow has seven colors.",
+    "label": "Fact"
+  },
+  {
+    "text": "The smallest bird in the world is the bee hummingbird.",
+    "label": "Fact"
+  },
+  {
+    "text": "Standing in lines is the worst.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The countryside is more peaceful than the city.",
+    "label": "Opinion"
+  },
+  {
+    "text": "Bees produce honey.",
+    "label": "Fact"
+  },
+  {
+    "text": "Classical architecture is more impressive than modern designs.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Pacific Ocean is the largest ocean on Earth.",
+    "label": "Fact"
+  },
+  {
+    "text": "Spending time in nature reduces stress.",
+    "label": "Opinion"
+  },
+  {
+    "text": "The Pacific Ocean is deeper than the Atlantic Ocean.",
+    "label": "Fact"
+  },
+  {
+    "text": "A square has four equal sides.",
+    "label": "Fact"
+  },
+  {
+    "text": "The sound of children laughing is heartwarming.",
+    "label": "Opinion"
+  },
+  {
+    "text": "People should talk less and listen more.",
+    "label": "Opinion"
+  }
+]
